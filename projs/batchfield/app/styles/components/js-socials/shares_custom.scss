@@ -2,29 +2,42 @@
 
 .jssocials{
 	position:fixed;
+	padding-left: 20px;
+    padding: 10px 0px 10px 10px;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
 	right:0;
 	top:40%;
 	z-index:999;
 	.jssocials-shares{
 		.jssocials-share{
-			margin-bottom:35px;
+			margin-bottom:15px;
 		}
 	}
 }
 
 
 
-/*
-.jssocials-share-twitter.jssocials-share-link{
+.jssocials-share-link.jssocials-share-link-count{
 	text-align:center;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width:50px;
+	height:50px;
 }
 
 
 
-.jssocials-share-twitter.jssocials-share-link,.jssocials-share-count{
-	display:block;
+.fa.jssocials-share-logo{
+	font-size:1.5em;
 }
-*/
 
-
+.jssocials-share-link.jssocials-share-link-count{
+	font-size:0.9em;
+}
 
