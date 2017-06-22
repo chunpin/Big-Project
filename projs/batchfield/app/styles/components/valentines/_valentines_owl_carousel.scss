@@ -1,0 +1,26 @@
+body.valentines_day{
+	.section.owl-carousel-more-photos-header{
+		padding:0;
+		margin-bottom:30px;
+		h1{
+			color:$valentines-red;
+			font-size:1.6em;
+			font-weight:bold;
+		}
+	}
+
+
+	.owl-carousel.owl-theme.owl-loaded{
+		margin-top:-35px;
+		.owl-controls .owl-prev, .owl-controls .owl-next{
+			background-color:$valentines-red;
+		}
+	}
+}
+
+
+
+
+
+
+@import "_valentines_detail_description";

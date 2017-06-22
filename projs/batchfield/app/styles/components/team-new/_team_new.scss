@@ -1,0 +1,241 @@
+$grayBg: #161616;
+
+$numSlides: 4;
+$imgDist: -150 * 1px;
+
+$bgSpd: 950 * 1ms;
+$imgSpd: 2000 * 1ms;
+
+$bgPics: (
+url('https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/12916246_967107050052899_5965955002603969323_o.jpg?oh=bccbe00f7e0874d04369a669dab7bd2a&oe=591C3E4D') center center no-repeat,
+url('https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e35/12224510_555325324645854_1373585782_n.jpg?ig_cache_key=MTExNTM1NjkxOTg3MTI3Mzg0MQ%3D%3D.2') center center no-repeat,
+url('https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e35/14709593_250839788652640_6181482649421348864_n.jpg?ig_cache_key=MTM3NDc2ODA1ODQxNzg5MzA2Mw%3D%3D.2') center top no-repeat,
+url('https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/336448_2995775711873_1409189409_o.jpg?oh=018917fee58d580dd1dd2d8165a59050&oe=59126FBC') center center no-repeat
+);
+
+@mixin mediaMaxW($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+
+.cont {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	will-change: transform;
+	overflow: hidden;
+	cursor: pointer;
+	&__bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform-origin: center left;
+		width: 100%;
+		height: 100%;
+		background-color: $grayBg;
+		z-index: 1;
+		transition: $bgSpd;
+		will-change: transform;
+	}
+	
+	&__img {
+		position: relative;
+		height: 100%;
+		
+		&-wrapper {
+			position: absolute;
+	    top: -10%;
+			left: -10%;
+			width: 125%;
+			height: 120%;
+			transform: translate3d(0, 0, 0);
+			transition: $bgSpd;
+			will-change: transform;
+		}
+	}
+	&__close {
+		position: absolute;
+		top: 5%;
+		left: 5%;
+		width: 100px;
+		height: 100px;
+		z-index: 0;
+		opacity: 0;
+		cursor: pointer;
+		transition: opacity 200ms, z-index 0ms 200ms;
+		&:after, &:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 115px;
+			height: 20px;
+			border-radius: 20px;
+			background-color: #fff;
+			transition: 500ms 500ms;
+			@include mediaMaxW(960px) {
+				width: 75px;
+				height: 15px;
+			}
+		}
+		&:after {
+			transform-origin: center left;
+			transform: rotate(45deg) scale(0, 0);
+		}
+		&:before {
+			left: -33px;
+			transform-origin: center right;
+			transform: rotate(-45deg) scale(0, 0);
+			transition: 500ms 650ms;
+			@include mediaMaxW(960px) {
+				left: -21px;
+			}
+		}
+	}
+	&__bg-dark {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, .5);
+		opacity: 0;
+		transition: 350ms;
+		z-index: 2;
+	}
+	&__text {
+		position: absolute;
+		top: 50%;
+		left: 5%;
+		width: 100%;
+		text-transform: uppercase;
+		word-wrap: break-word;
+		color: #fff;
+		font: {
+			size: 45px;
+			weight: 800;
+		}
+		transform: translate3d(0, -50%, 0) rotate(0.01deg);
+		will-change: transform, opacity;
+		transition: 750ms;
+		opacity: 0;
+		z-index: 1;
+		@include mediaMaxW(960px) {
+			font: {
+				size: 30px;
+			}
+		}
+		&--1 {
+			left: 8%;
+		}
+	}
+}
+
+.slide {
+	left: 100%;
+}
+
+@each $item in $bgPics {
+	$i: index($bgPics, $item);
+	.slide--#{$i} {
+		z-index: $i - 1;
+		.slide__img-wrapper {
+			background: $item;
+			background-size: cover;
+		}
+	}
+}
+
+.icon-link--twitter {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 50px;
+	opacity: 0;
+	z-index: -1;
+
+	img {
+		width: 100%;
+	}
+}
+
+.icon-show {
+	opacity: 1;
+	z-index: 5;
+}
+
+.active {
+	.slide--1 {
+		.slide__bg {
+			transform: scale(0, 1);
+			transition: $bgSpd;
+		}
+		.slide__img-wrapper {
+			transform: translate3d($imgDist, 0, 0);
+			transition: $imgSpd;
+		}
+	}
+	@for $i from 1 through $numSlides {
+		.slide--#{$i} {
+			transform: translate3d((-100% / $numSlides) * ($numSlides - ($i - 1)), 0, 0);
+			transition: transform $bgSpd $bgSpd * (($i - 1) * 1.3);
+			.slide__bg {
+				transform: scale(0, 1);
+				transition: $bgSpd * 2 $bgSpd * (($i - 1) * 1.3) ;
+			}
+			.slide__img-wrapper {
+				transform: translate3d($imgDist, 0, 0);
+				transition: $imgSpd $bgSpd * (($i - 1) * 1.3);
+			}
+		}
+	}
+}
+
+.show-close {
+	z-index: 4;
+	opacity: 1;
+	&:after {
+		transform: rotate(45deg) scale(1, 1);
+	}
+	&:before {
+		transform: rotate(-45deg) scale(1, 1);
+	}
+}
+
+
+.section.new-team-design{
+	padding-top:0;
+}
+
+
+.cont{
+	height:200px
+}
+
+@media screen and (min-width: 600px) {
+	.cont{
+		height:400px;
+	}	
+}
+
+@media screen and (min-width: 800px) {
+	.cont{
+		height:500px;
+	}	
+}
+
+@media screen and (min-width:1000px) {
+	 .cont{
+	 	height:600px;
+	 }
+}
+

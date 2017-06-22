@@ -1,0 +1,54 @@
+body.valentines_day{
+	.detail_description{
+		.container.topic_detail .flex_wrapper{
+			color:$valentines-red;
+			h3{
+				color:inherit;
+			}
+			h2{
+				color:inherit;
+				p{
+					background-color:$valentines-red;
+				}
+			}
+		}
+
+		#last_bullet_links{
+		   a{
+				border:2px solid $valentines-red;
+				color:$valentines-red;
+				&:hover{
+					background-color:$valentines-red;
+					color:$valentines-white
+
+				}
+		   }
+		}
+	}
+
+
+
+	.section.paketpreis.valentines{
+		h3.topic_title{
+			color:$valentines-red !important;
+		}
+
+		.preise_wrapper{
+			h3{
+				background-color:$valentines-red;
+			}
+			.price_high_light{
+				display:none;
+			}
+		}
+
+	}
+}
+
+
+
+
+
+
+
+

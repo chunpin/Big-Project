@@ -1,0 +1,176 @@
+$child-margin-bottom:20px;
+
+
+body.valentines_day{
+	background-color:#F5F5F5;
+	padding-top:90px;
+
+	.valentines_day_detail{
+		.valentines_wrapper{
+
+			h2{
+				font-weight:bold;
+			}
+			.button_wrapper{
+				    display:flex;
+				    flex-direction: row;
+				    flex-wrap:wrap;
+				    justify-content: center;
+				    align-items: center;
+					a{
+						/*display:inline-block;*/
+						width:210px;
+						padding:15px 0px;
+						margin:5px;
+						border:2px solid $valentines-red;
+						color:$valentines-white;
+						font-weight:bold;
+						background-color:$valentines-red;
+						transition: all .3s ease-in-out;
+						&:hover{
+							background-color:$valentines-white;
+							color:$valentines-red;
+						};
+					}
+					/*a:first-child{
+						margin-right:20px;
+					}*/
+			}
+			
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+.section.photography{
+	
+	.col{
+		color:$valentines-red;
+	}
+
+	.col{
+		margin-bottom: $child-margin-bottom;
+	}
+
+
+	img{
+		width:100%;
+	}
+}
+
+
+
+
+.section.description.valentines{
+	h3{
+		color:$valentines-red !important;
+	}
+}
+
+
+
+#headline_and_caption.detail{
+  margin-bottom:0px;
+}
+
+
+
+
+body.valentines_day{
+	.detail-body-text{
+		margin-bottom:10px;
+		margin-left:auto;
+		margin-right:auto;
+		color:$valentines-red;
+		font-weight:300;
+		font-size:14px;
+		line-height: 21px;
+		max-width:1000px;
+	}
+	.list_wrapper{
+		ul{
+			li{
+				color:$valentines-red;
+			}
+		}
+	}
+	.icon-block{
+		p{
+			color:$valentines-red;
+		}
+	}
+
+	#paketpreis{
+		h5{
+			color:$valentines-red;
+		}
+		.card{
+			h1,h2{
+				color:$valentines-red;
+			}
+		} 
+	}
+
+	#price-table{
+		*{
+			color:$valentines-red;
+		}
+	}
+	.bullet_list.valentines{
+		*{
+			color:$valentines-red;
+		}
+	}
+}
+
+
+
+/*roboto-300 fontsize-14px     lineHeight-21px
+*/
+
+/*font-size:18px     lineHeight-27px*/
+
+
+
+
+
+
+
+@media screen and (min-width:600px) {
+	.section.valentines_day_detail{
+		#valentines_day{
+			min-height:500px;
+		}
+	}
+
+	body.valentines_day{
+		.detail-body-text{
+			font-size:18px;
+			line-height: 27px;
+		}
+	    .section.nav_bar_spaceholder{
+			height:50px;
+		}
+		
+	}
+}
+
+
+
+
+@import "_valentines_owl_carousel";
+
+
+
+
+
+

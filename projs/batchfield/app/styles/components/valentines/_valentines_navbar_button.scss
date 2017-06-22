@@ -1,0 +1,41 @@
+/* START OF termin button*/
+
+
+.termin-button{
+    background-color: #ef3b71;
+    color: white !important;
+   
+}
+
+.termin-button-margin{
+     margin-top: 0px !important;
+}
+
+.active .termin-button{
+    background-color:#039be5;
+}
+
+
+@media screen and (min-width:992px) {
+     .termin-button{
+          max-height: 40px;
+          padding: 0 40px !important;
+          border-radius: 2px;
+          margin-top:11px;
+          line-height: 45px;
+     }
+}
+
+   /*this is in the sub-page*/
+.button.termin{
+    background-color:#ef3b71 !important;
+    border:2px solid #ef3b71 !important;
+    color:white !important;
+    &:hover{
+      background-color:white !important;
+      border:2px solid #ef3b71 !important;
+      color:#ef3b71 !important;
+    }
+}
+
+/* END OF termin button*/
