@@ -1,0 +1,281 @@
+/*START OF hero secton*/
+.hero{
+	background: $orange-light;
+background: -moz-linear-gradient(top, $orange-light 0%, $orange 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, $orange-light), color-stop(100%, $orange));
+background: -webkit-linear-gradient(top, $orange-light 0%, $orange 100%);
+background: -o-linear-gradient(top, $orange-light 0%, $orange 100%);
+background: -ms-linear-gradient(top, $orange-light 0%, $orange 100%);
+background: linear-gradient(to bottom, $orange-light 0%, $orange 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#ff9500', GradientType=0 );
+   
+   .container{
+    /*padding:0;*/
+   }
+   .container .row{
+   	margin-left:0;
+   	margin-right:0;
+   }
+   .header{
+   	color:$white;
+    text-shadow: 0px 1px $black;
+    font-size: 23px;
+    font-weight: bold;
+   }
+   .header.first{
+      font-size:40px;
+   }
+   .header.second{
+      margin-top:10px;
+   }
+
+   .sub-header{
+    color:$white;
+    text-shadow: 0px 1px $black;
+    font-size:16px;
+    margin-bottom:25px;
+    font-weight:lighter;
+        span{
+            font-weight:bold;
+        }
+   }
+
+   .btn-default{
+   	background-color:$logo-blue;
+   	color:$white;
+    border-top:5px solid $logo-blue;
+    border-right:5px solid $logo-blue;
+    border-left:5px solid $logo-blue;    
+    border-bottom: 5px solid $black;
+   	border-radius: none;
+   	margin:10px 10px 20px 10px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
+    font-weight:bold;
+    transition:all .3s ease-in-out;
+
+    &:hover{
+        background-color:white;
+/*        border-top: 2px solid $logo-blue;
+        border-top: 2px solid $logo-blue;
+        border-top: 2px solid $logo-blue;*/
+        color:$logo-blue;
+    };
+   }
+
+   /*css shake*/
+   .shake-slow:hover, .shake-trigger:hover .shake-slow, .shake-slow.shake-freeze, .shake-slow.shake-constant{
+    animation: shake-slow 20s ease-in-out infinite;
+   }
+  
+   .hand-wrapper{
+     	min-height:150px;
+      padding: 20px 0px 0px 0px;
+     	.img-responsive{
+     		max-width:40%;
+     		margin:0 auto;
+        margin-top:-10px;
+        transform: rotate(8deg);
+       /* box-shadow: 0px 0px 25px $black-trans;*/
+     	}
+
+      .img-responsive.quick-shot{
+        max-width:90%;
+      }
+   }/*hand-wrapper*/
+
+   .text-wrapper{
+     position:relative;
+     padding-left:0;
+     padding-right:0;
+     .big-price-tag-wrapper{
+       width:80px;
+       height:80px;
+       background-color:$black;
+       border-radius:0px 100% 100% 100%;
+       color:white;
+       position:relative;
+       top:-145px;
+       left:70%;
+       box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+       .text-block{
+        width:100%;
+        height:100%;
+        position:relative;
+        .text{
+          position:relative;
+          top:50%;
+          left:50%;
+          transform:translate(-50%, -50%);
+          font-size:2em;
+          /*  START OF inner text shadow*/
+        /*  background-color: white;
+          color: transparent;
+          text-shadow: 0px 1px 1px rgba(255,255,255,0.5);
+          -webkit-background-clip: text;
+             -moz-background-clip: text;
+                  background-clip: text;*/
+          /*  START OF inner text shadow*/
+
+          span:first-of-type{
+            font-size:.5em;
+            position:absolute;
+            top:-16%;
+            left:16%;
+          }
+          span:nth-child(2){
+            font-size:1.4em;
+            font-weight:bold;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            margin-right:8px;
+          }
+          span:last-child{
+            font-size:.5em;
+          }
+          
+        }/*text*/
+       }/*text-wrapper*/
+       
+     }/*big-price-tag-wrapper*/
+   }/*text-wrapper*/
+}
+
+ .logo{
+    margin-top:10px;
+    width:250px;
+    margin-left:-5px;
+}
+/*.hero*/
+
+
+
+@media screen and (min-width:768px) {
+    .logo{
+      margin-top:20px;
+      width:350px;
+      margin-top:20px;
+      margin-left:-15px;
+    }/*.logo*/
+    .hero{
+          .container{
+            min-height:580px;
+            padding-left:15px;
+            padding-right:15px;
+          }/*container*/
+
+          .hand-wrapper{
+              .img-responsive{
+               max-width:100%;
+               margin-top:64px;
+               transform:rotate(-15deg);
+              }
+              .img-responsive.quick-shot{
+                  max-width:100%;
+              }
+          } /*.hand-wrapper*/
+
+
+        
+          .text-wrapper{
+              padding: 30px 15px 0px 40px;
+                  .header{
+                    font-size:40px;
+                  }
+
+
+                  .header.first{
+                     font-size:55px;
+                  }
+                  .header.second{
+                      margin-top:10px;
+                     font-size:30px;
+                  }
+      
+                  .sub-header{
+                    font-size:22px;
+                    margin-bottom:210px;
+
+                  }
+                  .btn-default{
+                   /* margin:30px 10px 184px 10px;*/
+                    padding:15px 50px;
+                    font-weight:bold;
+                    font-size:26px;
+                  }
+               .big-price-tag-wrapper{
+                  top:-515px;
+                  left:85%;
+                  transform:scale(1.2);
+               }
+              
+
+          }/*text-center*/
+
+         
+          
+    }  
+}
+
+
+@media screen and (min-width:992px) {
+   .hero{
+        .hand-wrapper{
+            .img-responsive{
+              max-width:70%;
+              margin-top:65px;
+            }
+            .img-responsive.quick-shot{
+              max-width:100%;
+            }
+        }
+        .text-wrapper{
+           .big-price-tag-wrapper{
+             top:-394px;
+             left:89%;
+             transform:scale(1.3);
+          }
+        }
+   }  
+
+}
+
+
+@media screen and (min-width:1200px) {
+   .hero{
+        .hand-wrapper{
+            .img-responsive{
+              max-width:60%;
+              margin-top:37px;
+            }
+            .img-responsive.quick-shot{
+              max-width:100%;
+            }
+        }
+
+        .logo{
+          width:460px;
+        }
+
+        .text-wrapper{
+           .big-price-tag-wrapper{
+             top:-394px;
+             left:87%;
+             transform:scale(2.2);
+          }
+        }
+   }  
+}
+
+@media screen and (min-width:1300px) {
+  .hero{
+    .text-wrapper{
+      .big-price-tag-wrapper{
+        left:95%;
+      }
+    }
+  }  
+}
+
+
+/*END OF hero section*/

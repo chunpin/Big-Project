@@ -1,0 +1,89 @@
+.navbar-toggle {
+  float: left;
+  margin-left: 15px; }
+
+/*@media (min-width: 0) {
+  
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 0;
+  }
+  
+}*/
+body {
+  padding: 0; }
+
+.navmenu-brand:hover {
+  color: #ffffff !important;
+  background-color: orange !important;
+  text-shadow: 0px 1px black;
+  transition: all .3s ease-in-out; }
+
+nav ul li a {
+  transition: all .3s ease-in-out; }
+
+nav ul li a:hover {
+  color: #ffffff !important;
+  background-color: orange !important;
+  text-shadow: 0px 1px black; }
+
+nav ul li.active a {
+  color: #ffffff !important;
+  background-color: orange !important;
+  text-shadow: 0px 1px black; }
+
+.navbar-default {
+  background-color: transparent; }
+  .navbar-default .navbar-toggle .icon-bar {
+    width: 25px;
+    height: 3px;
+    background-color: black; }
+  .navbar-default .navbar-toggle:hover {
+    background-color: transparent; }
+    .navbar-default .navbar-toggle:hover .icon-bar {
+      background-color: grey; }
+  .navbar-default .navbar-toggle:focus {
+    background-color: transparent; }
+    .navbar-default .navbar-toggle:focus .icon-bar {
+      background-color: grey; }
+
+.navbar-default .navbar-toggle:after {
+  content: "MENU";
+  font-size: 9px;
+  font-weight: bold; }
+
+.navbar-default .navbar-toggle:hover:after, .navbar-default .navbar-toggle:focus:after {
+  color: grey; }
+
+.navbar-toggle {
+  display: block;
+  /* force showing the toggle */
+  border: none;
+  margin-right: 1px; }
+
+.navbar {
+  left: auto;
+  background: none;
+  border: none;
+  margin-top: 13px; }
+
+#page-overlay {
+  display: none;
+  z-index: 200;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all; }
+
+@media screen and (min-width: 768px) {
+  .navbar-default .navbar-toggle {
+    margin: 33px; }
+  /*navbar-default*/ }
