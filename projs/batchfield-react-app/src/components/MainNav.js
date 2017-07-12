@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 
 
 
-
+ 
 class MainNav extends Component{
 
   // constructor(){
@@ -21,7 +21,7 @@ class MainNav extends Component{
       var links = this.props.links;
       console.log('biglinks',links);
       const linkHTML = keys.map(function (item,index){
-        return <li key={index}><a href={`/fotoshootings_preise/${links[item].title]}`} className="waves-effect waves-blue">{links[item].title]}</a></li>
+        return   <li key={index} ><a href={`/fotoshootings_preise/${links[item].id}`} className="waves-effect waves-blue">{links[item].title}</a></li>
       });
 
 
@@ -37,7 +37,7 @@ class MainNav extends Component{
 
   render() {
     return (
-             <nav className="white" role="navigation">
+                 <nav className="white" role="navigation">
      <div className="nav-wrapper container">
       <a id="logo-container" href="/index.html" className="brand-logo"><img src="/images/batchfield_logo.png" alt="BATCHFIELD"/></a>
 

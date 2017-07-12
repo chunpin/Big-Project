@@ -25,7 +25,16 @@ import Webflow from 'webflow-api';
 
 
 
+class TopicDetailPage extends Component {
+  render() {
+    return (
+        <div> here is the topic detail page</div>
+    );
+  }
 
+
+
+}
 
 /*
 class WebflowComponent extends Component {
@@ -64,31 +73,37 @@ class WebflowComponent extends Component {
 
 const TopicData = {
   familie:{
+    id:"familie",
     title: "Familie",
     sub_title: "Fotoshooting für deine Familie",
     price: 39,
   },
   kids:{
+    id:"kids",
     title: "Kids",
     sub_title: "das Shooting für Babies & Kinder",
     price: 39,
   },
   baby_bauch:{
+    id:"baby_bauch",
     title: "Baby Bauch",
     sub_title: "Wir freuen uns auf dich!",
     price: 39,
   },
   paerchen:{
+    id:"paerchen",
     title: "Pärchen",
     sub_title: "just the two of us ",
     price: 39,
   },
   beauty:{
+    id:"beauty",
     title: "kinder",
     sub_title: "Styling, Make-Up & Du",
     price: 39,
   },
   kinder:{
+    id:"kinder",
     title: "kinder",
     sub_title: "as Shooting für Babies & Kinder",
     price: 39,
@@ -102,9 +117,13 @@ const TopicData = {
 
 
 
+
+
+
 const Topic = ({ match }) => (
   <div>
     <h3>{match.params.topicId}</h3>
+    <TopicDetailPage topic={match.params.topicId}/>
   </div>
 )
 
