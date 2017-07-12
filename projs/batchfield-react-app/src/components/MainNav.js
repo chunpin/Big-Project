@@ -1,10 +1,43 @@
 import React, { Component } from 'react';
 
 
+
+
+
+
+
+
 class MainNav extends Component{
-  render(){
+
+  // constructor(){
+  //   super();
+  //   this.populateHTML = this.populateHTML.bind(this);
+
+  // }
+
+  populateHTML (){
+
+      var keys  = Object.keys(this.props.links); //["familie", "kids", "baby_bauch", "paerchen", "beauty", "kinder"]
+      var links = this.props.links;
+      console.log('biglinks',links);
+      const linkHTML = keys.map(function (item,index){
+        return <li key={index}><a href={`/fotoshootings_preise/${links[item].title]}`} className="waves-effect waves-blue">{links[item].title]}</a></li>
+      });
+
+
+      return linkHTML;
+
+  }
+
+  
+
+
+  
+
+
+  render() {
     return (
-        <nav className="white" role="navigation">
+             <nav className="white" role="navigation">
      <div className="nav-wrapper container">
       <a id="logo-container" href="/index.html" className="brand-logo"><img src="/images/batchfield_logo.png" alt="BATCHFIELD"/></a>
 
@@ -27,17 +60,7 @@ class MainNav extends Component{
               <a className="collapsible-header">Drop Me!<i className="mdi-navigation-arrow-drop-down"></i></a>
               <div className="collapsible-body">
                 <ul>
-                  <li><a href="/fotoshootings_preise/First" className="waves-effect waves-blue">First</a></li>
-                  <li><a href="/fotoshootings_preise/Second" className="waves-effect waves-blue">Second</a></li>
-                  <li><a href="/fotoshootings_preise/Third" className="waves-effect waves-blue">Third</a></li>
-                  <li><a href="/fotoshootings_preise/Fourth" className="waves-effect waves-blue">Fourth</a></li>
-                  <li><a href="/fotoshootings_preise/More" className="waves-effect waves-blue">More</a></li>
-                  <li><a href="/fotoshootings_preise/More" className="waves-effect waves-blue">More</a></li>
-                  <li><a href="/fotoshootings_preise/More" className="waves-effect waves-blue">More</a></li>
-                  <li><a href="/fotoshootings_preise/More" className="waves-effect waves-blue">More</a></li>
-                  <li><a href="/fotoshootings_preise/More" className="waves-effect waves-blue">More</a></li>
-                  <li><a href="/fotoshootings_preise/More" className="waves-effect waves-blue">More</a></li>
-                  <li><a href="/fotoshootings_preise/More" className="waves-effect waves-blue">More</a></li>
+                  {this.populateHTML()}
                 </ul>
               </div>
             </li>
@@ -83,9 +106,14 @@ class MainNav extends Component{
     </div>
   </nav>
     );
-  }
 
+  }
 }
 
 
 export default MainNav;
+
+
+
+
+

@@ -62,6 +62,43 @@ class WebflowComponent extends Component {
 */
 
 
+const TopicData = {
+  familie:{
+    title: "Familie",
+    sub_title: "Fotoshooting für deine Familie",
+    price: 39,
+  },
+  kids:{
+    title: "Kids",
+    sub_title: "das Shooting für Babies & Kinder",
+    price: 39,
+  },
+  baby_bauch:{
+    title: "Baby Bauch",
+    sub_title: "Wir freuen uns auf dich!",
+    price: 39,
+  },
+  paerchen:{
+    title: "Pärchen",
+    sub_title: "just the two of us ",
+    price: 39,
+  },
+  beauty:{
+    title: "kinder",
+    sub_title: "Styling, Make-Up & Du",
+    price: 39,
+  },
+  kinder:{
+    title: "kinder",
+    sub_title: "as Shooting für Babies & Kinder",
+    price: 39,
+  },
+ }
+
+
+
+
+
 
 
 
@@ -82,7 +119,10 @@ const Index = () => (
   <Router>
     <div>
      <InfoNav />
-     <MainNav />
+     <MainNav
+       links={TopicData}
+      />
+
      <LandingPromotion />
      <Topics />
      {/*<Route path={`/:topicId`} component={Topic}/>*/}
