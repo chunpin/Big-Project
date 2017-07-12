@@ -1,0 +1,125 @@
+/*START OF footer section*/
+footer{
+  background-color:$grey;
+  /*background-image: url("/images/footer-bg.jpg");*/
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
+  color:$white;
+  padding-top:15px;
+  /*padding-bottom:15px;*/
+  .footer-logo{
+    width:85%;
+  }
+  .footer-block{
+    margin-bottom:40px;
+       li{
+        margin:15px 0px;
+          a{
+            padding:10px 0px;
+            text-decoration: underline;
+            transition:all .3s ease-in-out;
+          }
+       }
+       .footer-header{
+        font-weight:bold;
+       }
+
+  }
+
+
+
+
+
+
+  ul{
+    list-style-type: none;
+    padding-left:0;
+    li{
+      a{
+        color:$white;
+      }
+    }
+  }
+
+  .footer-impressum-section{
+    padding:0;
+      li{
+        display:inline;
+        padding:6px;
+          a{
+            color:$grey-sub-light;
+            transition:all .3s ease-in-out;
+          }
+          a:hover{
+            color:$white-trans;
+          }
+      }
+  }
+
+  .footer-extra-info{
+     border-top:1px solid $grey-sub-light;
+     padding-top:30px; 
+     padding-left:15px;
+     padding-right:15px;
+     margin-top:20px;
+        .product-delivery-detail-description{
+            font-size:11px;
+            color:$grey-sub-light;
+            ol{
+              padding-left:0;
+            }
+        }
+  }
+
+
+
+  .footer-copyright{
+      background-color:$grey-dark;
+      font-size:12px;
+      color:$grey-sub-light;
+      padding-top:15px;
+      padding-bottom:15px;
+  }/*.footer-copyright*/
+
+
+
+
+
+  .social-slide{
+      background-size: 32px auto;
+      height: 32px;
+      width: 32px;
+      margin-right: 10px;
+      float: left;
+      transition: all ease 0.3s;
+      &:hover{
+        background-position:0px -32px;
+      };
+  }
+
+
+  .rollover-facebook{
+    background-image:url("/images/rollover_facebook.png");
+  }
+  .rollover-google-plus{
+    background-image:url("/images/rollover_google-plus.png");
+  }
+  .rollover-youtube{
+    background-image:url("/images/rollover_youtube.png");
+  }
+
+
+  
+}/*footer*/
+
+
+
+
+@media screen and (min-width:768px) {
+   footer{
+      .footer-extra-info{
+        margin-top:0px;
+      }
+   }
+}
+/*END OF  footer section*/

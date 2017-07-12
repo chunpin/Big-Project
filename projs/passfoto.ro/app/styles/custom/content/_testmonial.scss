@@ -1,0 +1,105 @@
+/*START OF testimonial*/
+.testimonial{
+  color:$blue-gray;
+
+  .container > .row > h3{
+    font-size:25px;
+    padding:50px 0px;
+  }
+
+
+
+  .container{
+    .row{
+      margin-right:0;
+      margin-left:0;
+    }
+  }
+
+  .stars-block{
+      color:$gold;
+      margin-top:20px;
+      margin-bottom:75px;
+        .glyphicon{ 
+          font-size:2em;
+        }
+  }/*.stars-block*/
+
+  
+  .recommend-card{
+    margin-bottom:75px;
+    padding-left:0px;
+    padding-right:0px;
+      .card-wrapper{
+        /* padding-left:20px;
+         padding-right:20px;*/
+           .card{
+              position:relative;
+              background-color:$grey-sub-super-light;
+              border-bottom:5px solid $grey-super-light;
+              padding:50px 20px 10px 20px;
+                  .author-image{
+                    position:absolute;
+                    width:80px;
+                    height:80px;
+                    border-radius: 100%;
+                    border:4px solid $orange;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                  }
+                  h5{
+                    margin-top:20px;
+                  }
+           }/*.card*/
+      }/*.card-wrapper*/
+  }/*.recommend-card*/
+
+  .recommend-card:first-of-type{
+      .card-wrapper{
+        .card{
+          .author-image{
+            border-color:transparent;
+          }
+        }
+      }
+  }/*.recommend-card:first-of-type*/
+  
+ 
+}/*.testimonial*/
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+   .testimonial{
+      .recommend-card{
+        padding-left:15px;
+       padding-right:15px;
+      }
+   }/*.testimonial*/
+}
+
+@media screen and (min-width:992px) {
+   .testimonial{
+         .container > .row > h3{
+          font-size:40px;
+        }
+   }  
+}
+
+
+@media screen and (min-width:1200px) {
+   .testimonial{
+         .container > .row > h3{
+          font-size:46px;
+        }
+   }  
+}
+/*END OF testimonial*/
+
+

@@ -28,53 +28,33 @@ import * as firebase from 'firebase';
 
 
   class FirebaseTestingComponent extends Component {
-    // constructor(){
-    //   super();
-
-    //   this.state = { 
-    //     speed: 10
-    //   };
-
-
-    //   // this.updateData = this.updateData.bind(this);
-    // }
-
-    // componentWillMount(){
-    //   const rootRef = firebase.database().ref().child('react');
-    //   const speedRef = rootRef.child('speed');
-    //   speedRef.on('value', snap => {
-    //     this.setState({
-    //       speed: snap.val()
-    //     });
-    //   });
-    // }
-
-    constructor() {
+    constructor(){
       super();
 
-      this.loadData = this.loadData.bind(this);
+      this.state = { 
+        speed: 10
+      };
 
+
+      // this.updateData = this.updateData.bind(this);
     }
 
-    loadData () {
-       var data = {};
-       const rootRef = firebase.database().ref().child('react');
-       const speedRef = rootRef.child('speed');
-       speedRef.set('value', snap => {
-            data.speed = snap.val()
-       });
-
-       console.log(data);
-
+    componentWillMount(){
+      const rootRef = firebase.database().ref().child('react');
+      const speedRef = rootRef.child('speed');
+      speedRef.on('value', snap => {
+        this.setState({
+          speed: snap.val()
+        });
+      });
     }
 
-
-
+  
 
     render(){
       return (
         <div>
-          <h1>{this.loadData()}</h1>
+          <h1>{this.state.speed}</h1>
         </div>
 
       ); 
@@ -252,7 +232,6 @@ const howItWorksData  = {
           telephone:"",
           font_awesome_icon:"",
       }
-
     ]
 
 };
