@@ -5,6 +5,11 @@ import Index from './pages/Index.js'
 
 
 
+
+
+
+
+
 import './App.css';
 
 
@@ -21,3 +26,7 @@ const App = () => (
 
 
 export default App;
+
+
+
+

@@ -117,8 +117,8 @@ gulp.task('scripts', () =>
       './app/scripts/owl.carousel.js',
       './app/scripts/initial.js',
       './app/scripts/google-webfont.js',
-      './app/scripts/jssocials/jssocials.js',
-      './app/scripts/jssocials/jssocials_activate.js',
+    // './app/scripts/jssocials/jssocials.js',
+    //'./app/scripts/jssocials/jssocials_activate.js',
       // Other scripts
     ])
       .pipe($.newer('.tmp/scripts'))
