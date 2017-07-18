@@ -71,7 +71,7 @@ app.controller('testimonialCtrl',['$scope', function($scope){
       text: 'Hab echt tolle Passfotos bekommen! Das Team war auch super nett und professionell.',
       img: $scope.gender.female,
       alt:'quick-shot-kunden-01',
-      date:  $scope.displayDate(new Date("2016-6-26"))
+      date:  $scope.displayDate(new Date("2011-6-26"))
       // date:  $scope.displayDate(new Date("2016-6-14"))
     }, 
     { author: 'Sonja',

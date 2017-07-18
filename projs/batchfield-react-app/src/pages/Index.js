@@ -32,8 +32,6 @@ class TopicDetailPage extends Component {
     );
   }
 
-
-
 }
 
 /*
@@ -116,6 +114,36 @@ const TopicData = {
 
 
 
+class AllTopic extends Component {
+  populateHTML () {
+      var keys = Object.keys(this.props.data);
+      var data = this.props.data;
+      const HTML = keys.map(function (item,index){
+          return <li keys={index}>
+                    <h3>{data[item].title}</h3>
+                    <p>{data[item].sub_title}</p>
+                    <h1>{data[item].price}</h1>
+
+
+
+                </li>
+      });
+
+      return HTML;
+      
+  }
+
+
+  render(){
+    return (
+      <ul>{this.populateHTML()}</ul>
+    );
+
+  }
+
+}
+
+
 
 
 
@@ -145,7 +173,9 @@ const Index = () => (
      <LandingPromotion />
      <Topics />
      {/*<Route path={`/:topicId`} component={Topic}/>*/}
-     <Route path= {`/fotoshootings_preise/:topicId`} component={Topic}/>
+     <Route path = {`/fotoshootings_preise/:topicId`} component={Topic}/>
+     <AllTopic data = {TopicData} />
+
     </div>
   </Router>
 )
