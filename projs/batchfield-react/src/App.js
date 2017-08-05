@@ -4,7 +4,7 @@ import './App.css';
 
 
 
-import Index from './pages/index.js';
+import HomePage from './pages/homePage.js';
 
 
 
@@ -19,7 +19,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Index />
+        <HomePage />
       </div>
     );
   }
