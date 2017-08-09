@@ -1,4 +1,19 @@
 const data = {
+	companyInfo:{
+		name:'BATCHFIELD',
+		address:"Hammerweg 8 83022 Rosenheim",
+		email:"hello@batchfield.de",
+		prettyAddress:"BATCHFIELD | photography Loftstudio im Hinterhof Hammerweg 8 83022 Rosenheim",
+		tel:'08031-8878777',
+		openingTime:'Dienstag bis Samstag 10:00 – 13:00 und 14:00 – 19:00',
+		socialMedia:{
+			facebook:"http://www.facebook.com/batchfield.de",
+			youtube:"https://www.youtube.com/channel/UCwHi6X6SRGPOvpRoBmeBlbA/videos",
+			instagram:"https://www.instagram.com/explore/tags/batchfield/",
+		}
+
+
+	},
 	shootings: [
 		{
 			id:"001",

@@ -25,3 +25,6 @@ export default FotoShoting;
 
 
 // /static/media/batchfield_fotograf_rosenheim_bewebungsbilder_promotion-02.b719ac2e.jpg
+
+
+

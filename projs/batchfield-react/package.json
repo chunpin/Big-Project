@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "react-materialize": "^1.0.6",
-    "react-slick": "^0.14.11"
+    "react-slick": "^0.14.11",
+    "slugify": "^1.1.0"
   }
 }

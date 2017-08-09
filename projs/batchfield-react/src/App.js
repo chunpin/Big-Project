@@ -8,8 +8,12 @@ import HomePage from './pages/homePage.js';
 
 
 
-import Navbar from './components/navBar.js';
+import Nav from './components/nav.js';
 
+import FooterComponent from './components/footerComponent.js';
+
+
+import data from './assets/data.js';
 
 
 
@@ -23,8 +27,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <Nav data={data}/>
         <HomePage />
+        <FooterComponent data={data} />
       </div>
     );
   }
