@@ -1,3 +1,205 @@
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-	color:blue;
+.container.photo-gallery .card-reveal{
+  padding:0px;
+}
+      .container.photo-gallery .card-reveal span{
+        width:100%;
+        height:100%;
+        padding:20px;
+      }
+
+      .container.photo-gallery .card-reveal span p{
+        font-size:15px;
+      }
+
+
+.container.photo-gallery .light-box-wrapper{
+  display:inline-block;
+  position:relative;
+
+}
+
+
+
+.container.photo-gallery .card{
+  background-color:#fcfcfc;
+  box-shadow:none;
+  min-height:330px;
+}
+
+
+.container.photo-gallery .card .card-price-wrapper{
+  z-index:2;
+  position:absolute;
+  bottom:5%;
+  right:5%;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  background-color:#03a9f4;
+  color:white;
+  .text-wrapper{
+      position:relative;
+      width:100%;
+      height:100%;
+        .card-price{
+          position:absolute;
+          margin:0;
+          top:50%;
+          left:50%;
+          transform:translate(-50%, -50%);
+        }
+  }
+}
+
+@media only screen and (min-width:480px) {
+    .container.photo-gallery .card .card-price-wrapper{
+      width:65px;
+      height:65px;
+        .card-price{
+            font-size:16px;
+        }
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .container.photo-gallery .card .card-price-wrapper{
+      width:55px;
+      height:55px;
+        .card-price{
+            font-size:14px;
+        }
+    }
+}
+
+@media only screen and (min-width:640px){
+  .container.photo-gallery .card{
+    min-height:370px;
+  }  
+}
+
+
+
+        .container.photo-gallery .col{
+          padding:0 0.18rem;
+        }
+      
+
+        .container.photo-gallery .light-box-wrapper .overlay_title{
+          position:absolute;
+          top:50%;
+          left:50%;
+          z-index:3;
+          color:#fff;
+          font-size:25px;
+          -ms-transform: translate(-50%,-50%); /* IE 9 */
+          -webkit-transform: translate(-50%,-50%); /* Safari */
+          transform:translate(-50%,-50%);
+        }
+
+
+
+
+        .container.photo-gallery .light-box-wrapper .overlay_background{
+          position:absolute;
+          top:0;
+          left:0;
+          right:0;
+          bottom:0;
+          width:100%;
+          height:100%;
+          z-index:2;
+          color:#fff;
+          font-size:3rem;
+          background-color:rgba(0,0,0,0.6);
+          opacity:0;
+          -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s;
+
+        }
+
+          .container.photo-gallery .light-box-wrapper div:hover{
+          
+          
+          opacity:1;
+        }
+
+        .container.photo-gallery .card-content{
+                  padding-top:0;
+                  padding-bottom:0;
+                  padding-left:5px;
+                  padding-right:5px;
+                }
+
+              .container.photo-gallery .card-content .card-title{
+                color:#039be5;
+                font-size:1.64rem;
+                font-weight:400;
+
+              }
+
+
+              .container.photo-gallery .card-content .card-title.price{
+                margin:0;
+                line-height:1.6;
+              }
+
+              .container.photo-gallery .card-content p{
+               font-size:15px;
+               font-weight:300;
+               color:#6d6d6d;
+               margin-top:-11px;
+              }
+
+                    .container.photo-gallery .card-action{                   
+                      border-top:0;
+                      padding:20px 0 20px 0;
+                      margin-top:-6px;                  
+                    }
+
+                           .container.photo-gallery .card-action .button{
+                            margin-right:0 !important;
+                            color:#29b6f6;
+                            background-color:white;
+                            border:2px solid #29b6f6;
+                            padding:10px;
+                            -webkit-transition: color 0.3s, background-color 0.3s;
+                            transition: color 0.3s, background-color 0.3s;
+                          }
+
+                          .container.photo-gallery .card-action .button:hover{
+                            color:white;
+                            background-color:#29b6f6;
+                          }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
 }

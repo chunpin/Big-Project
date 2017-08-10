@@ -10,7 +10,7 @@ import HomePage from './pages/homePage.js';
 
 import Nav from './components/nav.js';
 
-import FooterComponent from './components/footerComponent.js';
+import Footer from './components/footer.js';
 
 
 import data from './assets/data.js';
@@ -29,7 +29,7 @@ class App extends Component {
       <div className="App">
         <Nav data={data}/>
         <HomePage />
-        <FooterComponent data={data} />
+        <Footer data={data} />
       </div>
     );
   }

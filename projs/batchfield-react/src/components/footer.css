@@ -1,0 +1,134 @@
+footer.page-footer {
+  padding-top: 22px;
+  margin: 0;
+  background-color: #3D3D3D; }
+
+footer.page-footer h5 {
+  font-size: 1.4rem; }
+
+footer.page-footer .container.first_part_footer {
+  padding-bottom: 16px; }
+
+footer.page-footer .container.first_part_footer .row {
+  margin: 0; }
+
+footer.page-footer .footer-copyright {
+  height: initial; }
+
+footer.page-footer .footer-copyright .container .row {
+  margin: 0; }
+
+footer .footer-copyright .left {
+  margin: 14.5px 0px; }
+
+footer .footer-copyright .left .footer_logo {
+  display: inline-block;
+  margin-top: 0px; }
+
+footer .footer-copyright .copyright_wrapper {
+  line-height: 24px;
+  font-size: 13px; }
+
+footer .footer-copyright img {
+  width: 110px; }
+
+/* START of social media icons */
+footer .social-slide {
+  background-image: url("/images/rollover_facebook.png");
+  background-size: 32px auto;
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+  float: left;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s; }
+
+footer .footer-copyright .social_icons_wrapper, footer .footer-copyright .menu-footer-menu {
+  padding: 0; }
+
+footer .social_icons_wrapper li {
+  display: inline-block; }
+
+footer .social_icons_wrapper li a {
+  line-height: 0;
+  font-size: 0;
+  color: transparent; }
+
+footer .social-slide:hover {
+  background-position: 0px -32px; }
+
+footer .rollover-youtube {
+  background-image: url("/images/rollover_youtube.png"); }
+
+footer .rollover-instagram {
+  background-image: url("/images/rollover_instagram.png"); }
+
+footer .footer-copyright {
+  background-color: #2f2e2f !important; }
+
+footer .footer-copyright .menu-footer-menu {
+  margin-top: -24px;
+  line-height: 24px; }
+
+footer.page-footer .footer-copyright {
+  padding-top: 22px;
+  padding-bottom: 12px; }
+
+@media only screen and (min-width: 601px) {
+  footer .social_icons_wrapper {
+    text-align: right; }
+  footer .social_icons_wrapper li a {
+    margin-right: 0px;
+    margin-left: 10px; }
+  footer .footer-copyright .menu-footer-menu {
+    text-align: right;
+    margin-top: -5px; }
+  footer .copyright_wrapper {
+    margin-top: -2px; } }
+
+@media only screen and (min-width: 700px) {
+  footer .footer-copyright .menu-footer-menu {
+    margin-top: -7px; } }
+
+@media only screen and (min-width: 1000px) {
+  footer .copyright_wrapper {
+    margin-top: -1px; } }
+
+footer .menu-footer-menu li {
+  display: inline; }
+
+footer .menu-footer-menu li a {
+  color: #d1d1d1;
+  font-size: 12px;
+  margin-right: 10px;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
+
+footer .menu-footer-menu li a:hover {
+  color: #E6E6E6; }
+
+@media only screen and (min-width: 601px) {
+  footer .menu-footer-menu li a {
+    margin-right: 0;
+    margin-left: 10px; } }
+
+/* END of social media icons */
+/*footer font size*/
+footer a, footer li {
+  font-size: 13px; }
+
+/*footer telephone number button*/
+footer.page-footer a.telephone_number {
+  background-color: #039be5;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 8px 30px;
+  transition: all .2s ease-in-out; }
+  footer.page-footer a.telephone_number:hover {
+    background-color: white;
+    color: #039be5; }

@@ -24,14 +24,17 @@ class FotoShootings extends Component {
 
 	render(){
 		return (
-			<section>
-			    <h1 className="title">Fotoshootings</h1>
+				          <section className="section">
+			<div className="container photo-gallery fixed_width">
 
-				<Container>
-					<Row>
-						{this.populateHtml()}
-					</Row>
-				</Container>
+		            <div className="row">
+			           		  <div className="col s12" id="fade-in-aktionen-title">
+			                     <h3 className="center-align light-blue-text text-lighten-1 price-headline">Fotoshootings</h3>
+							  </div>
+
+							   {this.populateHtml()}
+			        </div>
+			  </div>
 			</section>
 		);
 	}

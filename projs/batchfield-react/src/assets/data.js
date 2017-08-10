@@ -22,6 +22,7 @@ const data = {
 			overlay_text:"",
 			price:39,
 			thumbnail:"photo-section-familie-thumbnail.jpg",
+			column:3,
 		},
 	    {
 			id:"002",
@@ -30,6 +31,7 @@ const data = {
 			overlay_text:"",
 			price:39,
 			thumbnail:"photo-section-kids-thumbnail.jpg",
+			column:3,
 		},
 	    {
 			id:"003",
@@ -38,6 +40,7 @@ const data = {
 			overlay_text:"BabyBelly",
 			price:39,
 			thumbnail:"photo-section-baby-bauch-thumbnail.jpg",
+			column:3,
 		},
 	    {
 			id:"004",
@@ -46,6 +49,7 @@ const data = {
 			overlay_text:"count on me",
 			price:39,
 			thumbnail:"photo-section-bestfriends-thumbnail.jpg",
+			column:3,
 		},
 	    {
 			id:"005",
@@ -54,6 +58,7 @@ const data = {
 			overlay_text:"",
 			price:39,
 			thumbnail:"batchfield_fotograf_rosenheim_paerchen_thumbnail.jpg",
+			column:4,
 		},
 	    {
 			id:"006",
@@ -62,6 +67,7 @@ const data = {
 			overlay_text:"Queen for a day",
 			price:39,
 			thumbnail:"batchfield_fotograf_rosenheim_beauty_thumbnail.jpg",
+			column:4,
 		},
 		{
 			id:"007",
@@ -70,6 +76,7 @@ const data = {
 			overlay_text:"it's gettin' hot in here",
 			price:39,
 			thumbnail:"batchfield_fotograf_rosenheim_erotik_thumbnail.jpg",
+			column:4,
 		},
 	    {
 			id:"008",
@@ -78,6 +85,7 @@ const data = {
 			overlay_text:"Passbild",
 			price:10,
 			thumbnail:"batchfield_fotograf_rosenheim_passfoto_thumbnail.jpg",
+			column:4,
 		},
 	    {
 			id:"009",
@@ -86,6 +94,7 @@ const data = {
 			overlay_text:"Get this job!",
 			price:29,
 			thumbnail:"batchfield_fotograf_rosenheim_bewebungsbilder_thumbnail.jpg",
+			column:4,
 		},
 	    {
 			id:"010",
@@ -94,6 +103,7 @@ const data = {
 			overlay_text:"Dein Tag",
 			price:99,
 			thumbnail:"batchfield_fotograf_rosenheim_myday_thumbnail.jpg",
+			column:4,
 		},
 
 	]
