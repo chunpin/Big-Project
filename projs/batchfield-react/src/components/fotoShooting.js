@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Card, CardTitle, Col } from 'react-materialize';
 
-import './FotoShooting.css'; // Tell Webpack that Button.js uses these styles
+import './fotoShooting.css'; // Tell Webpack that Button.js uses these styles
 
 
 import slugify from 'slugify';
@@ -23,7 +22,7 @@ class FotoShoting extends Component {
                                 <p className="card-price">{data.price}</p>
                               </div>
                             </span>
-                            <div className="overlay_background"><div className="overlay_title">{data.overlay_text}</div></div>
+                            <div className="overlay_background"><div className="overlay_title">{data.overlay_text? data.overlay_text : data.title}</div></div>
                           </a>
                         </div>
                         <div className="card-content">

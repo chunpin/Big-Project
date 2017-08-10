@@ -24,7 +24,7 @@ class Footer extends Component {
   	
 
   	const linkHtml = 	<ul>
-  	 						 <li><a className="white-text" href="/index.html">{ companyInfo.name } | photography</a></li>
+  	 						 <li><a className="white-text" href="/">{ companyInfo.name } | photography</a></li>
 	             			 <li><a className="white-text" href="https:goo.gl/maps/tdS6tE9oXU32" target="_blank">{ companyInfo.prettyAddress }</a></li>
 	             			 <li><a className="white-text" href= {`mailto:${companyInfo.email}`} target="_top"><br/>Email: <u>{ companyInfo.email }</u></a></li>
   	 					</ul>
@@ -107,10 +107,10 @@ class Footer extends Component {
 	        <div className="row">
 	          
 	                <div className="col s12 m6 left">
-	                    <a href="/index.html" lass="footer_logo"><img src="/images/batchfield_logo.png" alt="Startseite" /></a>
+	                    <a href="/" lass="footer_logo"><img src="/images/batchfield_logo.png" alt="Startseite" /></a>
 	                  <div className="copyright_wrapper">
 	                  	{this.copyRightYear()}
-	                  <a className="brown-text text-lighten-3" href="/index.html">BATCHFIELD</a> &nbsp;|&nbsp;  photography — all rights reserved</div>
+	                  <a className="brown-text text-lighten-3" href="/">BATCHFIELD</a> &nbsp;|&nbsp;  photography — all rights reserved</div>
 	                </div>
 	          
 
@@ -124,11 +124,11 @@ class Footer extends Component {
 	                   
 	                   
 	                   <ul class="col s12 menu-footer-menu">
-	                     <li><a href="/fotoshootings_preise/index.html">SHOOTINGS & PREISE</a></li>
-	                     <li><a href="/team/index.html">TEAM</a></li>
-	                     <li><a href="/kontakt/index.html">KONTAKT</a></li>
-	                     <li><a href="/impressum/index.html">IMPRESSUM</a></li>
-	                     <li><a href="/datenschutz/index.html">DATENSCHUTZ</a></li>
+	                     <li><a href="/fotoshootings_preise/">SHOOTINGS & PREISE</a></li>
+	                     <li><a href="/team/">TEAM</a></li>
+	                     <li><a href="/kontakt/">KONTAKT</a></li>
+	                     <li><a href="/impressum/">IMPRESSUM</a></li>
+	                     <li><a href="/datenschutz/">DATENSCHUTZ</a></li>
 	                   </ul>
 	                 </div>
 

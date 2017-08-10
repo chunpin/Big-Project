@@ -23,6 +23,41 @@ const data = {
 			price:39,
 			thumbnail:"photo-section-familie-thumbnail.jpg",
 			column:3,
+			page_desc:"Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.",
+			explanation_lists:[
+				{
+					icon:"time",
+					title:"Wie lange dauert das Shooting",
+					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+				},
+				{
+					icon:"photo",
+					title:"Euer Lieblingsfoto ist schon dabei",
+					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
+				},
+				{
+					icon:"time",
+					title:"Fotos Auswählen",
+					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+				},
+				{
+					icon:"time",
+					title:"Kein Bestellzwang",
+					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+				},
+				{
+					icon:"time",
+					title:"Outfits",
+					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+				},
+			],
+			extra_service:{
+				icon:"time",
+				headline:"Häufig dazugebucht",
+				title:"30min. mehr Shootingzeit nur 20€",
+				desc:"Ihr wollt mehr? Kein Ding! Jede weitere halbe Stunde kostet nur 20€."
+			},
+
 		},
 	    {
 			id:"002",
@@ -98,7 +133,7 @@ const data = {
 		},
 	    {
 			id:"010",
-			title:"MyDay!",
+			title:"MyDay",
 			sub_title:"Shine bright like a diamond",
 			overlay_text:"Dein Tag",
 			price:99,
