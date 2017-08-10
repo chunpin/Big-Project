@@ -1,5 +1,4 @@
 
-
 .container.topic_detail .flex_wrapper{
     display: -webkit-box;
     display: -moz-box;
@@ -148,3 +147,85 @@
 
 
 
+
+
+
+.section.paketpreis{
+  padding-top:35px;
+}
+
+
+.section.paketpreis h1.topic_title{
+  font-size:32px;
+  margin-bottom:10px;
+}
+
+
+
+
+@media only screen and (min-width:601px){
+
+    .container.topic_detail .flex_wrapper{
+    
+        -webkit-flex-wrap: nowrap;
+
+    }
+
+
+          .container.topic_detail .flex_wrapper h3{
+               -webkit-order:0;
+               order:0;
+               width:auto;
+               font-size:2.92rem;
+               line-height: 83px;
+               margin:0;
+               text-align:right;
+               margin-left:91px;
+          }
+
+          .container.topic_detail .flex_wrapper h2{
+               -webkit-order:1;
+               order:1;
+               width:auto;   
+               margin:0;               
+               margin-left:11px;          
+          }
+          .container.topic_detail .flex_wrapper h2 p{
+            margin:0;
+          }
+
+  
+
+
+    .col.s12.list_wrapper ul{
+      text-align: left;
+      margin-top:0px;
+      margin-bottom:0px;
+      
+    }
+
+
+
+
+
+
+    .section.paketpreis h1.topic_title{
+      font-size:50px;
+      margin-bottom:10px;
+    }
+     
+
+
+    /*
+    .container.topic_detail.fixed_width .topic_title span{
+     margin-left:23px;
+     height:200px;
+     width:200px;
+     line-height:212px;     
+     background-size:181px;
+    }
+    */
+
+
+
+}
