@@ -1,0 +1,27 @@
+/*START of .section.description*/
+.section.description{
+  background-image:url("/images/divider-shadow.png");
+  background-repeat:no-repeat;
+  background-position:center top;
+  padding-top:47px;
+  padding-bottom:25px;
+}
+
+
+.section.description p{
+  text-align: center
+}
+
+
+    .section.description .container{
+      max-width:992px;
+      width:100%;
+    }  
+    .section.description .container .row{
+      margin:0;
+    }
+
+
+      .section.description .container .icon-block img{
+        width:46px;
+      }

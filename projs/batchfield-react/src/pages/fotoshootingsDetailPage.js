@@ -5,7 +5,7 @@ import slugify from 'slugify';
 import PriceDetail from '../components/priceDetail.js';
 
 
-
+import ExtraInfo from '../components/extraInfo.js';
 
 
 
@@ -23,6 +23,10 @@ class FotoShootingsDetailPage extends Component {
 		return (
       <div> 
         <PriceDetail data={this.filterData()}/>
+        <ExtraInfo 
+          data={this.filterData().extra_info}
+          title = { this.filterData().title }
+        />
       </div>
 		);
 	}

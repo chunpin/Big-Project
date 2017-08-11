@@ -36,19 +36,19 @@ const data = {
 					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
 				},
 				{
-					icon:"time",
+					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"time",
+					icon:"euro",
 					title:"Kein Bestellzwang",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
 				},
 				{
-					icon:"time",
+					icon:"outfits",
 					title:"Outfits",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
 				},
 			],
 			extra_service:{
@@ -79,7 +79,7 @@ const data = {
 				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
 				},
 				{
-				icon:'hari',
+				icon:'hair',
 				title:"Styling",
 				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
 				},
@@ -95,12 +95,12 @@ const data = {
 			price:39,
 			thumbnail:"photo-section-kids-thumbnail.jpg",
 			column:3,
-			page_desc:"Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.",
+			page_desc:"Kinder dürfen hier so sein wie sie sind - so wie ihr sie kennt, so wie ihr sie lieb habt. Fotos von den Kids sind in ein paar Jahren unbeschreiblich wertvoll, denn die Erinnerung bleibt ein Leben lang.",
 			explanation_lists:[
 				{
 					icon:"time",
 					title:"Wie lange dauert das Shooting",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ca. 60 Minuten solltet ihr für das Kids Shooting und die anschliessende Bildauswahl einplanen.",
 				},
 				{
 					icon:"photo",
@@ -108,19 +108,14 @@ const data = {
 					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
 				},
 				{
-					icon:"time",
+					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"time",
+					icon:"euro",
 					title:"Kein Bestellzwang",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
-				},
-				{
-					icon:"time",
-					title:"Outfits",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
 				},
 			],
 			extra_service:{
@@ -131,27 +126,27 @@ const data = {
 			},
 			extra_info:[
 				{
-				icon:'t_shirt',
+				icon:'kidspullover',
 				title:"Klamotten",
-				desc:"Stimmt eure Klamotten auf einander ab. Wir empfehlen mindestens 3 komplette Outfits pro Person."
+				desc:"Zieht euren Kindern ihre Liebslingsklamotten an, damit sie sich richtig pudelwohl fühlen."
 				},
 				{
-				icon:'trousers',
-				title:"Mehr Klamotten",
-				desc:"Ihr dürft auch gerne mehr mitbringen, denn umziehen könnt ihr euch bei uns so viel wie ihr wollt."
-				},
-				{
-				icon:'glasses',
-				title:"Accessoire",
-				desc:"Natürlich dürfen eure liebsten Accessoires nicht fehlen. Nehmt die Lieblingspuppen und Kuscheltiere eurer Kinder mit."
+				icon:'teddybear',
+				title:"Lieblingsspielsachen",
+				desc:"Die Lieblingsspielsachen, Puppen oder Kuscheltiere dürfen natürlich nicht fehlen."
 				},
 				{
 				icon:'feet',
-				title:"Kinder sind gerne barfuß unterwegs",
-				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
+				title:"Kinder sind gerne barfuß unterwegs.",
+				desc:"Kinder sind gerne Barfuß unterwegs. Achtet auf saubere und gepflegte Füße."
 				},
 				{
-				icon:'hari',
+				icon:'kids_hair',
+				title:"Styling",
+				desc:"Stylt die Haare schon zu Hause, damit eure Kinder richtig gut aussehen."
+				},
+				{
+				icon:'hair',
 				title:"Styling",
 				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
 				},
@@ -166,32 +161,27 @@ const data = {
 			price:39,
 			thumbnail:"photo-section-baby-bauch-thumbnail.jpg",
 			column:3,
-			page_desc:"Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.",
+			page_desc:'"Schau mal mein Schatz. Du warst so klein, dass du in meinen Bauch gepasst hast." Viel zu schnell vergisst man wie der Bauch gewachsen ist und wie klein das Baby war. Wir halten diese besondere Zeit für Eure Familie fest und machen sie unvergesslich.',
 			explanation_lists:[
 				{
 					icon:"time",
 					title:"Wie lange dauert das Shooting",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ca. 60 Minuten solltest du für das Shooting und die anschließende Fotoauswahl einplanen.",
 				},
 				{
 					icon:"photo",
 					title:"Euer Lieblingsfoto ist schon dabei",
-					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
+					desc:"Dein Lieblingsbild ist im Preis bereits enthalten: als Abzug + Datei.",
 				},
 				{
-					icon:"time",
+					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"time",
+					icon:"euro",
 					title:"Kein Bestellzwang",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
-				},
-				{
-					icon:"time",
-					title:"Outfits",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
 				},
 			],
 			extra_service:{
@@ -204,27 +194,27 @@ const data = {
 				{
 				icon:'t_shirt',
 				title:"Klamotten",
-				desc:"Stimmt eure Klamotten auf einander ab. Wir empfehlen mindestens 3 komplette Outfits pro Person."
+				desc:"Deine Klamotten sollten deinen schönen Bauch betonen. Wenn du magst, kannst du deinen Bauch aber auch zeigen."
 				},
 				{
-				icon:'trousers',
-				title:"Mehr Klamotten",
-				desc:"Ihr dürft auch gerne mehr mitbringen, denn umziehen könnt ihr euch bei uns so viel wie ihr wollt."
+				icon:'makeup',
+				title:"Make-up",
+				desc:"Falls wir dich schminken sollen, komm bitte komplett ungeschminkt zu uns ins Studio und plane 30 Minuten mehr ein."
 				},
 				{
-				icon:'glasses',
-				title:"Accessoire",
-				desc:"Natürlich dürfen eure liebsten Accessoires nicht fehlen. Nehmt die Lieblingspuppen und Kuscheltiere eurer Kinder mit."
-				},
-				{
-				icon:'feet',
-				title:"Kinder sind gerne barfuß unterwegs",
-				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
-				},
-				{
-				icon:'hari',
+				icon:'hair',
 				title:"Styling",
-				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
+				desc:"Style deine Haare schon zu Hause und pflege deine Hände und Füße."
+				},
+				{
+				icon:'necklace',
+				title:"Accessoires",
+				desc:"Bring bitte deine liebsten Accessoires mit – das macht die Fotos sehr persönlich. Babysachen, Kuscheltiere, Schnullerkette oder Schuhe sind immer ein Hingucker."
+				},
+				{
+				icon:'socks',
+				title:"Aufpassen",
+				desc:"Trage keine zu enge Kleidung vor deinem Shooting. Unterwäsche und Socken machen oft unschöne Abdrücke auf der Haut."
 				},
 
 			],
@@ -237,12 +227,12 @@ const data = {
 			price:39,
 			thumbnail:"photo-section-bestfriends-thumbnail.jpg",
 			column:3,
-			page_desc:"Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.",
+			page_desc:"Ihr habt eine großartige Zeit zusammen und wollt eure Freundschaft in ganz persönlichen Fotos festhalten. Deine beste Freundin, dein bester Kumpel oder deine ganze Clique ist herzlich willkommen! Wir halten eure Freundschaft in unvergesslichen Bildern fest, die niemals in Vergessenheit geraten werden.",
 			explanation_lists:[
 				{
 					icon:"time",
 					title:"Wie lange dauert das Shooting",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ca. 60 Minuten solltet ihr für das BestFriends Shooting und die anschliessende Bildauswahl einplanen.",
 				},
 				{
 					icon:"photo",
@@ -250,19 +240,19 @@ const data = {
 					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
 				},
 				{
-					icon:"time",
+					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"time",
+					icon:"euro",
 					title:"Kein Bestellzwang",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
 				},
 				{
-					icon:"time",
+					icon:"outfits",
 					title:"Outfits",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
 				},
 			],
 			extra_service:{
@@ -273,29 +263,29 @@ const data = {
 			},
 			extra_info:[
 				{
-				icon:'t_shirt',
-				title:"Klamotten",
-				desc:"Stimmt eure Klamotten auf einander ab. Wir empfehlen mindestens 3 komplette Outfits pro Person."
+				icon:'makeup',
+				title:"Make-up",
+				desc:"Falls wir euch schminken sollen, kommt bitte komplett ungeschminkt zu uns ins Studio und plant dafür ca. 30 Minuten mehr ein."
 				},
 				{
-				icon:'trousers',
-				title:"Mehr Klamotten",
-				desc:"Ihr dürft auch gerne mehr mitbringen, denn umziehen könnt ihr euch bei uns so viel wie ihr wollt."
-				},
-				{
-				icon:'glasses',
-				title:"Accessoire",
-				desc:"Natürlich dürfen eure liebsten Accessoires nicht fehlen. Nehmt die Lieblingspuppen und Kuscheltiere eurer Kinder mit."
-				},
-				{
-				icon:'feet',
-				title:"Kinder sind gerne barfuß unterwegs",
-				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
-				},
-				{
-				icon:'hari',
+				icon:'hair',
 				title:"Styling",
-				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
+				desc:"Stylt eure Haare schon zu Hause, damit wir gleich anfangen können. Pflegt eure Hände und Füße."
+				},
+				{
+				icon:'dress',
+				title:"Klamotten",
+				desc:"Bringt eure absoluten Lieblingsklamotten mit. 3 oder mehr Outfits wären super!"
+				},
+				{
+				icon:'2dresses',
+				title:"Klamotten farblich zusammenpassen",
+				desc:"Achtet darauf, dass eure Klamotten farblich zusammenpassen."
+				},
+				{
+				icon:'necklace',
+				title:"Accessoires",
+				desc:"Brillen, Taschen und Schmuck dürfen natürlich auch nicht fehlen. Eure liebsten Accessoires machen die Fotos noch individueller."
 				},
 
 			],
@@ -308,7 +298,7 @@ const data = {
 			price:39,
 			thumbnail:"batchfield_fotograf_rosenheim_paerchen_thumbnail.jpg",
 			column:4,
-			page_desc:"Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.",
+			page_desc:"Wir machen eure Gefühle sichtbar und halten sie für immer fest in einem sehr verliebten Fotoshooting.",
 			explanation_lists:[
 				{
 					icon:"time",
@@ -321,19 +311,19 @@ const data = {
 					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
 				},
 				{
-					icon:"time",
+					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"time",
+					icon:"euro",
 					title:"Kein Bestellzwang",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
 				},
 				{
-					icon:"time",
+					icon:"outfits",
 					title:"Outfits",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
 				},
 			],
 			extra_service:{
@@ -344,29 +334,29 @@ const data = {
 			},
 			extra_info:[
 				{
-				icon:'t_shirt',
-				title:"Klamotten",
-				desc:"Stimmt eure Klamotten auf einander ab. Wir empfehlen mindestens 3 komplette Outfits pro Person."
+				icon:'makeup',
+				title:"Make-up",
+				desc:"Falls wir euch schminken sollen, kommt bitte komplett ungeschminkt zu uns ins Studio und plant dafür ca. 30 Minuten mehr ein."
 				},
 				{
-				icon:'trousers',
-				title:"Mehr Klamotten",
-				desc:"Ihr dürft auch gerne mehr mitbringen, denn umziehen könnt ihr euch bei uns so viel wie ihr wollt."
-				},
-				{
-				icon:'glasses',
-				title:"Accessoire",
-				desc:"Natürlich dürfen eure liebsten Accessoires nicht fehlen. Nehmt die Lieblingspuppen und Kuscheltiere eurer Kinder mit."
-				},
-				{
-				icon:'feet',
-				title:"Kinder sind gerne barfuß unterwegs",
-				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
-				},
-				{
-				icon:'hari',
+				icon:'hair',
 				title:"Styling",
-				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
+				desc:"Stylt eure Haare schon zu Hause, damit wir gleich anfangen können. Pflegt eure Hände und Füße."
+				},
+				{
+				icon:'dress',
+				title:"Klamotten",
+				desc:"Bringt eure absoluten Lieblingsklamotten mit. Drei (3) oder mehr Outfits wären super!"
+				},
+				{
+				icon:'t_shirt',
+				title:"Klamotten zusammenpassen",
+				desc:"Achtet darauf, dass eure Klamotten zusammenpassen – wir wollen euch als eine echte Einheit fotografieren."
+				},
+				{
+				icon:'necklace',
+				title:"Accessoires",
+				desc:"Bringt eure liebsten Accessoires mit, die vielleicht etwas mit euch zu tun haben, wie ihr euch kennengelernt habt oder Dinge, die euch miteinander verbinden – das macht die Bilder noch viel persönlicher."
 				},
 
 			],
@@ -379,7 +369,7 @@ const data = {
 			price:39,
 			thumbnail:"batchfield_fotograf_rosenheim_beauty_thumbnail.jpg",
 			column:4,
-			page_desc:"Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.",
+			page_desc:"Wir setzen dich ganz nach deinem individuellen Stil in Szene du bist eine Traumfrau, zeig es! Das Ergebnis wird Dich umhauen – und alle anderen auch!",
 			explanation_lists:[
 				{
 					icon:"time",
@@ -392,19 +382,19 @@ const data = {
 					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
 				},
 				{
-					icon:"time",
+					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"time",
+					icon:"euro",
 					title:"Kein Bestellzwang",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
 				},
 				{
-					icon:"time",
+					icon:"outfits",
 					title:"Outfits",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
 				},
 			],
 			extra_service:{
@@ -415,29 +405,24 @@ const data = {
 			},
 			extra_info:[
 				{
-				icon:'t_shirt',
-				title:"Klamotten",
-				desc:"Stimmt eure Klamotten auf einander ab. Wir empfehlen mindestens 3 komplette Outfits pro Person."
+				icon:'makeup',
+				title:"Make-up",
+				desc:"Falls wir euch schminken sollen, kommt bitte komplett ungeschminkt zu uns ins Studio und plant dafür ca. 30 Minuten mehr ein."
 				},
 				{
-				icon:'trousers',
-				title:"Mehr Klamotten",
-				desc:"Ihr dürft auch gerne mehr mitbringen, denn umziehen könnt ihr euch bei uns so viel wie ihr wollt."
-				},
-				{
-				icon:'glasses',
-				title:"Accessoire",
-				desc:"Natürlich dürfen eure liebsten Accessoires nicht fehlen. Nehmt die Lieblingspuppen und Kuscheltiere eurer Kinder mit."
-				},
-				{
-				icon:'feet',
-				title:"Kinder sind gerne barfuß unterwegs",
-				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
-				},
-				{
-				icon:'hari',
+				icon:'hair',
 				title:"Styling",
-				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
+				desc:"Stylt eure Haare schon zu Hause, damit wir gleich anfangen können. Pflegt eure Hände und Füße."
+				},
+				{
+				icon:'dress',
+				title:"Klamotten",
+				desc:"Bringt eure absoluten Lieblingsklamotten mit. 3 oder mehr Outfits wären super!"
+				},
+				{
+				icon:'necklace',
+				title:"Accessoires",
+				desc:"Brillen, Taschen und Schmuck dürfen natürlich auch nicht fehlen. Deine liebsten Accessoires bringen deine Fotos noch besser zur Geltung."
 				},
 
 			],
@@ -463,19 +448,19 @@ const data = {
 					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
 				},
 				{
-					icon:"time",
+					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"time",
+					icon:"euro",
 					title:"Kein Bestellzwang",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
 				},
 				{
-					icon:"time",
+					icon:"outfits",
 					title:"Outfits",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
 				},
 			],
 			extra_service:{
@@ -506,7 +491,7 @@ const data = {
 				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
 				},
 				{
-				icon:'hari',
+				icon:'hair',
 				title:"Styling",
 				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
 				},
@@ -534,19 +519,19 @@ const data = {
 					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
 				},
 				{
-					icon:"time",
+					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"time",
+					icon:"euro",
 					title:"Kein Bestellzwang",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
 				},
 				{
-					icon:"time",
+					icon:"outfits",
 					title:"Outfits",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
 				},
 			],
 			extra_service:{
@@ -577,7 +562,7 @@ const data = {
 				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
 				},
 				{
-				icon:'hari',
+				icon:'hair',
 				title:"Styling",
 				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
 				},
@@ -605,19 +590,19 @@ const data = {
 					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
 				},
 				{
-					icon:"time",
+					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"time",
+					icon:"euro",
 					title:"Kein Bestellzwang",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
 				},
 				{
-					icon:"time",
+					icon:"outfits",
 					title:"Outfits",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
 				},
 			],
 			extra_service:{
@@ -648,7 +633,7 @@ const data = {
 				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
 				},
 				{
-				icon:'hari',
+				icon:'hair',
 				title:"Styling",
 				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
 				},
@@ -676,19 +661,19 @@ const data = {
 					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
 				},
 				{
-					icon:"time",
+					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"time",
+					icon:"euro",
 					title:"Kein Bestellzwang",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
 				},
 				{
-					icon:"time",
+					icon:"outfits",
 					title:"Outfits",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
 				},
 			],
 			extra_service:{
@@ -719,7 +704,7 @@ const data = {
 				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
 				},
 				{
-				icon:'hari',
+				icon:'hair',
 				title:"Styling",
 				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
 				},
