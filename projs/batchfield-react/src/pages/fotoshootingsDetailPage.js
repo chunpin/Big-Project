@@ -7,6 +7,9 @@ import PriceDetail from '../components/priceDetail.js';
 
 import ExtraInfo from '../components/extraInfo.js';
 
+import FotoShootings from '../components/fotoShootings.js';
+
+import FotoBuch from '../components/fotoBuch.js';
 
 
 
@@ -23,10 +26,17 @@ class FotoShootingsDetailPage extends Component {
 		return (
       <div> 
         <PriceDetail data={this.filterData()}/>
+        
+        <FotoBuch />
+
         <ExtraInfo 
           data={this.filterData().extra_info}
           title = { this.filterData().title }
         />
+
+
+        <FotoShootings />
+
       </div>
 		);
 	}

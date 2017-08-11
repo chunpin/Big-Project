@@ -3,6 +3,11 @@ import React, { Component } from 'react';
 import './extraInfo.css';
 
 
+
+
+
+
+
 class ExtraInfo extends Component {
 
   populateHtml(){
@@ -12,7 +17,7 @@ class ExtraInfo extends Component {
       return (
         <li className="col s12 m6">
           <div className="icon-block">
-            <h2 className="center brown-text"><img src="/images/tipps_icon_kidspullover.png" alt={`${item.icon}_icon`}/></h2>
+            <h2 className="center brown-text"><img src={`/images/icons/tipps_icon_${item.icon}.png`} alt={`${item.icon}_icon`}/></h2>
             <p className="light">{item.desc}</p>
           </div>
         </li>

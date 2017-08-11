@@ -11,6 +11,19 @@ import './fotoShootings.css';
 
 
 class FotoShootings extends Component {
+	dynamicTitle () {
+		var currentPath = window.location.pathname;
+
+		if( currentPath !== "/"){
+			return "Entdecken Sie auch unsere weiteren Angebote!"
+		} else {
+			return "Fotoshootings"
+		}
+
+
+
+	}
+
 	populateHtml (){
 		const shootingsData = data.shootings;
 		const html = shootingsData.map(function (item){
@@ -24,17 +37,19 @@ class FotoShootings extends Component {
 
 	render(){
 		return (
-				          <section className="section">
-			<div className="container photo-gallery fixed_width">
+			<section className="section shadow_divider">
+				<div className="container photo-gallery fixed_width">
 
-		            <div className="row">
-			           		  <div className="col s12" id="fade-in-aktionen-title">
-			                     <h3 className="center-align light-blue-text text-lighten-1 price-headline">Fotoshootings</h3>
-							  </div>
+			            <div className="row">
+				           		  <div className="col s12" id="fade-in-aktionen-title">
+				                     <h3 className="center-align light-blue-text text-lighten-1 price-headline">
+				                     	{this.dynamicTitle()}
+				                     </h3>
+								  </div>
 
-							   {this.populateHtml()}
-			        </div>
-			  </div>
+								   {this.populateHtml()}
+				        </div>
+				  </div>
 			</section>
 		);
 	}

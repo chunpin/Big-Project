@@ -1,0 +1,106 @@
+/*hiding the elemet that can't be displaying currectly on the mobile version*/
+@media only screen and (max-width: 600px) {
+  .hide-mobile {
+    display: none; }
+  .show-mobile {
+    display: initial; } }
+
+@media only screen and (min-width: 601px) {
+  .hide-desktop {
+    display: none; }
+  .show-desktop {
+    display: initial; } }
+
+.row.preise_wrapper {
+  padding: 0; }
+
+.row.preise_wrapper div {
+  padding: 20px 0px; }
+
+.row.preise_wrapper .price_high_light {
+  display: none; }
+
+@media only screen and (min-width: 993px) {
+  .row.preise_wrapper div {
+    margin: 6px; }
+  .row.preise_wrapper .price_high_light {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    height: 75px;
+    width: 45px;
+    display: initial;
+    background-image: url("/images/ribbon.png");
+    background-size: 45px 75px;
+    background-repeat: no-repeat; } }
+
+.preise_wrapper div h1 {
+  font-size: 28px;
+  border-bottom: 1px solid #e0e0e0;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10px; }
+
+.preise_wrapper div h2 {
+  font-size: 17px;
+  margin-top: 12px; }
+
+.preise_wrapper div h3 {
+  font-size: 26px;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #29b6f6;
+  height: 90px;
+  width: 90px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 53px;
+  margin-bottom: 17px;
+  line-height: 91px;
+  border-radius: 50px; }
+
+.preise_wrapper div .btn.red {
+  background-color: #c7081b; }
+
+@media only screen and (min-width: 993px) {
+  .preise_wrapper.row .col.l2 {
+    width: 20%; }
+  .row.preise_wrapper .special_big {
+    padding: 40px 0px; }
+  .row.preise_wrapper .special_middle {
+    padding: 30px 0px; }
+  .preise_wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; } }
+
+.container.bullet_list {
+  max-width: 600px !important;
+  width: 100% !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-bottom: 25px;
+  text-align: left; }
+
+.container.bullet_list .divider {
+  width: 89%;
+  margin: 0 auto; }
+
+.container.bullet_list ul {
+  list-style-position: outside;
+  display: list-item;
+  padding: 0 0 0 32px; }
+
+.container.bullet_list ul li {
+  display: list-item;
+  list-style-type: disc;
+  vertical-align: top;
+  padding: 5px 0px; }

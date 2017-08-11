@@ -435,22 +435,22 @@ const data = {
 			price:39,
 			thumbnail:"batchfield_fotograf_rosenheim_erotik_thumbnail.jpg",
 			column:4,
-			page_desc:"Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.",
+			page_desc:"Du magst verführerische Bilder in Dessous oder sinnliche Fotos mit viel Haut? Mit viel Gespür für den richtigen Moment setzen wir dich ganz kreativ, natürlich und genau nach deinen Wünschen in Szene und halten den Moment für immer fest.",
 			explanation_lists:[
 				{
 					icon:"time",
 					title:"Wie lange dauert das Shooting",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ca. 60 Minuten solltest du für das Shooting und die anschließende Fotoauswahl einplanen.",
 				},
 				{
 					icon:"photo",
-					title:"Euer Lieblingsfoto ist schon dabei",
-					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
+					title:"Dein Lieblingsfoto ist schon dabei",
+					desc:"Dein Lieblingsbild ist im Grundpaket schon enthalten – als Abzug und Datei.",
 				},
 				{
 					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
+					desc:"Direkt nach deinem Erotik Fotoshooting wählst du deine Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
 					icon:"euro",
@@ -460,7 +460,7 @@ const data = {
 				{
 					icon:"outfits",
 					title:"Outfits",
-					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
+					desc:"Du darfst dich so oft umziehen wie du möchtest. Bringe bitte mindestens 3 Outfits mit.",
 				},
 			],
 			extra_service:{
@@ -473,27 +473,27 @@ const data = {
 				{
 				icon:'t_shirt',
 				title:"Klamotten",
-				desc:"Stimmt eure Klamotten auf einander ab. Wir empfehlen mindestens 3 komplette Outfits pro Person."
+				desc:"Bring Dessous mit in denen du dich 100% wohl fühlst."
 				},
 				{
 				icon:'trousers',
 				title:"Mehr Klamotten",
-				desc:"Ihr dürft auch gerne mehr mitbringen, denn umziehen könnt ihr euch bei uns so viel wie ihr wollt."
+				desc:"Bringt eure absoluten Lieblingsklamotten mit. 3 oder mehr Outfits wären super!"
 				},
 				{
 				icon:'glasses',
-				title:"Accessoire",
-				desc:"Natürlich dürfen eure liebsten Accessoires nicht fehlen. Nehmt die Lieblingspuppen und Kuscheltiere eurer Kinder mit."
+				title:"Accessoires",
+				desc:"Brillen, Taschen und Schmuck dürfen natürlich auch nicht fehlen. Eure liebsten Accessoires machen die Fotos noch individueller."
 				},
 				{
-				icon:'feet',
-				title:"Kinder sind gerne barfuß unterwegs",
-				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
+				icon:'makeup',
+				title:"Make-up",
+				desc:"Falls wir dich schminken sollen, komm bitte komplett ungeschminkt zu uns ins Studio und plane dafür ca. 30 Minuten mehr ein."
 				},
 				{
 				icon:'hair',
 				title:"Styling",
-				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
+				desc:"Stylt eure Haare schon zu Hause, damit wir gleich anfangen können. Pflegt eure Hände und Füße."
 				},
 
 			],
@@ -506,65 +506,35 @@ const data = {
 			price:10,
 			thumbnail:"batchfield_fotograf_rosenheim_passfoto_thumbnail.jpg",
 			column:4,
-			page_desc:"Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.",
+			page_desc:"Warst Du jemals glücklich mit Deinen Passfotos? Wir machen es möglich. Passfotos und insbesondere biometrische Fotos müssen bestimmten Rahmenbedingungen folgen. Doch das muss nicht zwingend langweilig aussehen! Unsere erfahrenen Fotografen stehen Dir mit Tips und Ratschlägen zur Seite - sodass Du Deinen Pass jederzeit gerne vorzeigst.",
 			explanation_lists:[
 				{
 					icon:"time",
 					title:"Wie lange dauert das Shooting",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"In nur 10 Minuten zum perfekten Passfoto.",
 				},
 				{
 					icon:"photo",
-					title:"Euer Lieblingsfoto ist schon dabei",
-					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
+					title:"Wie viele Fotos bekomme ich",
+					desc:"Im Preis enthalten sind 4 Abzüge deines Passbilds.",
 				},
 				{
 					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
-				},
-				{
-					icon:"euro",
-					title:"Kein Bestellzwang",
-					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
-				},
-				{
-					icon:"outfits",
-					title:"Outfits",
-					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
+					desc:"Bei uns gibt es keine Abnahmeverpflichtung! Du hast die Wahl – bestelle nur die Fotos, die Du wirklich haben möchtest.",
 				},
 			],
 			extra_service:{
 				icon:"time",
-				headline:"Häufig dazugebucht",
-				title:"30min. mehr Shootingzeit nur 20€",
-				desc:"Ihr wollt mehr? Kein Ding! Jede weitere halbe Stunde kostet nur 20€."
+				headline:"Blitzschneller Service und perfekte Fotos",
+				title:"",
+				desc:"Blitzschneller Service und perfekte Fotos"
 			},
 			extra_info:[
 				{
-				icon:'t_shirt',
-				title:"Klamotten",
-				desc:"Stimmt eure Klamotten auf einander ab. Wir empfehlen mindestens 3 komplette Outfits pro Person."
-				},
-				{
-				icon:'trousers',
-				title:"Mehr Klamotten",
-				desc:"Ihr dürft auch gerne mehr mitbringen, denn umziehen könnt ihr euch bei uns so viel wie ihr wollt."
-				},
-				{
-				icon:'glasses',
-				title:"Accessoire",
-				desc:"Natürlich dürfen eure liebsten Accessoires nicht fehlen. Nehmt die Lieblingspuppen und Kuscheltiere eurer Kinder mit."
-				},
-				{
-				icon:'feet',
-				title:"Kinder sind gerne barfuß unterwegs",
-				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
-				},
-				{
 				icon:'hair',
-				title:"Styling",
-				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
+				title:"Passfotos müssen bestimmten Rahmenbedingungen folgen",
+				desc:"Passfotos müssen bestimmten Rahmenbedingungen folgen. Achte darauf, das die wichtigsten Merkmale Deines Gesichtes gut erkennbar sind. Auch Kopfbedeckungen sind nur begrenzt erlaubt. Bei Fragen kannst Du Dich jederzeit an unsere erfahrenen Fotografen wenden."
 				},
 
 			],
@@ -574,70 +544,55 @@ const data = {
 			title:"Bewerbungsbilder",
 			sub_title:"Es geht um was!",
 			overlay_text:"Get this job!",
-			price:29,
+			price:39,
 			thumbnail:"batchfield_fotograf_rosenheim_bewebungsbilder_thumbnail.jpg",
 			column:4,
-			page_desc:"Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.",
+			page_desc:"Wir helfen Dir deinen neuen Arbeitgeber von Dir zu überzeugen. Unsere erfahrenen Fotografen wissen, worauf es bei Bewerbungsfotos ankommt. Damit Du in bestem Licht erstrahlen kannst. Viel Erfolg!",
 			explanation_lists:[
 				{
 					icon:"time",
 					title:"Wie lange dauert das Shooting",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Ca. 30 Minuten solltest Du für das Bewerbungsbilder Shooting und Deine Bildauswahl einplanen.",
 				},
 				{
 					icon:"photo",
-					title:"Euer Lieblingsfoto ist schon dabei",
-					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
+					title:"Dein Lieblingsfoto ist schon dabei",
+					desc:"Dein Lieblingsfoto ist im Preis bereits enthalten: als Datei.",
 				},
 				{
 					icon:"select",
 					title:"Fotos Auswählen",
-					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
+					desc:"Bei uns gibt es keine Bestellverpflichtung! Du hast die Wahl – bestelle nur die Fotos, die Du wirklich haben möchtest.",
 				},
 				{
 					icon:"euro",
-					title:"Kein Bestellzwang",
-					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
-				},
-				{
-					icon:"outfits",
-					title:"Outfits",
-					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
+					title:"Schüler oder Student - Sonderpreis von 29€",
+					desc:"Als Schüler oder Student bekommst Du deine Bewerbungsbilder bereits zum Sonderpreis von 29€",
 				},
 			],
 			extra_service:{
-				icon:"time",
-				headline:"Häufig dazugebucht",
-				title:"30min. mehr Shootingzeit nur 20€",
-				desc:"Ihr wollt mehr? Kein Ding! Jede weitere halbe Stunde kostet nur 20€."
+				icon:"euro",
+				headline:"Schüler oder Student - Sonderpreis von 29€",
+				title:"",
+				desc:"Als Schüler oder Student bekommst Du deine Bewerbungsbilder bereits zum Sonderpreis von 29€"
 			},
 			extra_info:[
 				{
 				icon:'t_shirt',
 				title:"Klamotten",
-				desc:"Stimmt eure Klamotten auf einander ab. Wir empfehlen mindestens 3 komplette Outfits pro Person."
+				desc:"Stimme Deine Klamotten auf Deinen Job ab. Seriöse Bewerbung als Büroangestellte? Dann halte Dich am Besten an Bluse und Blazer. Oder eine Anstellung in einem angesagten Modeladen? Dann bitte so hip und modern wie möglich. Wir empfehlen mindestens 3 komplette Outfits."
 				},
 				{
 				icon:'trousers',
 				title:"Mehr Klamotten",
-				desc:"Ihr dürft auch gerne mehr mitbringen, denn umziehen könnt ihr euch bei uns so viel wie ihr wollt."
-				},
-				{
-				icon:'glasses',
-				title:"Accessoire",
-				desc:"Natürlich dürfen eure liebsten Accessoires nicht fehlen. Nehmt die Lieblingspuppen und Kuscheltiere eurer Kinder mit."
-				},
-				{
-				icon:'feet',
-				title:"Kinder sind gerne barfuß unterwegs",
-				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
+				desc:"Du darfst auch gerne mehr mitbringen, denn umziehen kannst Du dich bei uns so oft wie Du willst."
 				},
 				{
 				icon:'hair',
 				title:"Styling",
-				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
+				desc:"Style Deine Haare schon zu Hause und pflege Deine Hände."
 				},
-
+			
 			],
 		},
 	    {
@@ -648,17 +603,17 @@ const data = {
 			price:99,
 			thumbnail:"batchfield_fotograf_rosenheim_myday_thumbnail.jpg",
 			column:4,
-			page_desc:"Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.",
+			page_desc:"Das ist DEIN Tag. Und Du entscheidest was du willst. Du magst verführerische Bilder in Dessous, oder ein romantisches Shooting im Sonnenuntergang? Mit viel Gespür für den richtigen Moment setzen wir Dich ganz kreativ, natürlich und genau nach Deinen Wünschen in Szene. Damit dir DEIN Tag für immer in unvergesslicher Erinnerung bleibt. 99 € Termin vereinbaren 08031 - 88 78 777",
 			explanation_lists:[
 				{
 					icon:"time",
 					title:"Wie lange dauert das Shooting",
-					desc:"Ca. 60 Minuten solltet ihr für das Shooting und die anschliessende Bildauswahl einplanen.",
+					desc:"Das ist dein ganz besonderer Tag. Du kannst die Location für das Shooting frei wählen. Und wir fotografieren dich mindestens eine Stunde lang.",
 				},
 				{
 					icon:"photo",
-					title:"Euer Lieblingsfoto ist schon dabei",
-					desc:"Euer absolutes Lieblingsfoto ist im Paketpreis enthalten: als Fotoabzug + die dazugehoerige Datei geschenkt!",
+					title:"Deiner Lieblingsfoto ist schon dabei",
+					desc:"3 Deiner Lieblingsbilder ist im Preis bereits enthalten: als Abzug + Datei.",
 				},
 				{
 					icon:"select",
@@ -666,49 +621,38 @@ const data = {
 					desc:"Direkt nach eurem Fotoshooting wählt ihr eure Lieblingsbilder aus bis zu 100 Fotos aus.",
 				},
 				{
-					icon:"euro",
-					title:"Kein Bestellzwang",
-					desc:"Ihr habt die Wahl – bestellt nur die Fotos, die ihr wirklich haben möchtet. Bei uns gibt es keinen Bestellzwang!",
-				},
-				{
 					icon:"outfits",
 					title:"Outfits",
-					desc:"Ihr dürft euch so oft umziehen wie ihr möchtet. Wir empfehlen mindestens 3 Outfits pro Person.",
+					desc:"Du darfst Dich so oft umziehen wie Du möchtest. Bringe bitte mindestens 3 Outfits mit.",
 				},
 			],
 			extra_service:{
-				icon:"time",
+				icon:"makeup",
 				headline:"Häufig dazugebucht",
-				title:"30min. mehr Shootingzeit nur 20€",
-				desc:"Ihr wollt mehr? Kein Ding! Jede weitere halbe Stunde kostet nur 20€."
+				title:"Professionelles Beauty-MakeUp - 35€",
+				desc:"Wir empfehlen ein professionelles Beauty-MakeUp. Für nur 35€ kannst Du es dazubuchen."
 			},
 			extra_info:[
 				{
-				icon:'t_shirt',
-				title:"Klamotten",
-				desc:"Stimmt eure Klamotten auf einander ab. Wir empfehlen mindestens 3 komplette Outfits pro Person."
-				},
-				{
-				icon:'trousers',
-				title:"Mehr Klamotten",
-				desc:"Ihr dürft auch gerne mehr mitbringen, denn umziehen könnt ihr euch bei uns so viel wie ihr wollt."
-				},
-				{
-				icon:'glasses',
-				title:"Accessoire",
-				desc:"Natürlich dürfen eure liebsten Accessoires nicht fehlen. Nehmt die Lieblingspuppen und Kuscheltiere eurer Kinder mit."
-				},
-				{
-				icon:'feet',
-				title:"Kinder sind gerne barfuß unterwegs",
-				desc:"Kinder sind gerne barfuß unterwegs. Deshalb pflegt eure Füße und rechnet mit lustigen Barfußbildern."
+				icon:'makeup',
+				title:"Make-up",
+				desc:"Falls wir euch schminken sollen, kommt bitte komplett ungeschminkt zu uns ins Studio und plant dafür ca. 30 Minuten mehr ein."
 				},
 				{
 				icon:'hair',
 				title:"Styling",
-				desc:"Lackiert eure Nägel und macht eure Haare schon zu Hause, damit ihr auf den Fotos schön und gepflegt ausseht."
+				desc:"Stylt eure Haare schon zu Hause, damit wir gleich anfangen können. Pflegt eure Hände und Füße."
 				},
-
+				{
+				icon:'dress',
+				title:"Klamotten",
+				desc:"Bringt eure absoluten Lieblingsklamotten mit. 3 oder mehr Outfits wären super!"
+				},
+				{
+				icon:'necklace',
+				title:"Accessoires",
+				desc:"Bringt eure liebsten Accessoires mit, die vielleicht etwas mit euch zu tun haben – das macht die Bilder noch viel persönlicher."
+				},
 			],
 		},
 

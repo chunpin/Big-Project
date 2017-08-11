@@ -1,3 +1,7 @@
+@import './shadowDivider.css';
+
+
+
 .container.topic_detail .flex_wrapper {
   display: -webkit-box;
   display: -moz-box;
@@ -147,3 +151,5 @@
      background-size:181px;
     }
     */ }
+
+
