@@ -25,6 +25,11 @@ import data from './assets/data.js';
 
 
 
+
+
+
+
+
 const Topic = ({ match }) => (
   <div>
     <FotoShootingsDetailPage 
