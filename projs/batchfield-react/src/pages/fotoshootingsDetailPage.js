@@ -12,6 +12,9 @@ import FotoShootings from '../components/fotoShootings.js';
 import FotoBuch from '../components/fotoBuch.js';
 
 
+import data from '../assets/data.js';
+
+
 
 class FotoShootingsDetailPage extends Component {
   filterData(){
@@ -35,7 +38,7 @@ class FotoShootingsDetailPage extends Component {
         />
 
 
-        <FotoShootings />
+        <FotoShootings/>
 
       </div>
 		);

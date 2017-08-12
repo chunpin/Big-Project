@@ -1,0 +1,81 @@
+
+.section.second-section.team{
+  padding:0;
+  background-color:#fcfcfc;
+
+}
+
+
+  .section.second-section.team > .row.main-row{
+    margin:0;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1200px;
+  }
+
+        .section.second-section.team > .row.main-row > .col.m6{
+          padding:0px;
+        }
+  
+              .section.second-section.team > .row.main-row > .col.m6 > .row.sub-row.team-member-wrapper{
+                margin:0px;
+              }
+
+
+                    .section.second-section.team .image-wrapper{
+                      padding:0;
+                    }
+                          .section.second-section.team .image-wrapper img{
+                            display:block;
+                            margin-right:auto;
+                            margin-left:auto;
+                          }
+
+                    .section.second-section.team .text-wrapper{
+                      text-align: left;
+                      padding:10%;
+                      padding-bottom:0;
+                    }
+               
+
+                
+@media only screen and (min-width:600px) and (max-width:700px) {
+                    
+                    .section.second-section.team .text-wrapper{
+                      padding:5%;
+                      padding-bottom:0;
+                    }
+
+                    .section.second-section.team .text-wrapper blockquote{
+                      margin-bottom:0;
+                    }
+  
+}
+
+                          .section.second-section.team .text-wrapper h5{
+                            font-size:1.4rem;
+                            padding-bottom:0px;
+                          }
+
+                          .section.second-section.team .text-wrapper blockquote{
+                            border-left:5px solid #03a9f4;
+                            color:#039be5;                
+                          }
+                           
+
+/*
+                          @media only screen and (min-width:836px){
+
+
+                                .section.second-section.team .text-wrapper{
+                                  padding-left:9%;
+                                }
+                          }
+ */
+                          @media only screen and (min-width:800px){
+
+
+                                .section.second-section.team .text-wrapper blockquote{
+                                  margin-top:32%;
+                                }
+                          }

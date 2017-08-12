@@ -1,0 +1,72 @@
+.section.third-section.contact-text{
+  background-color:#fcfcfc;
+
+}
+
+.section.fourth-section.facebook-huge-button.center{
+  width:100%;
+  height:200px;
+  background-color:#3b5998;
+}
+
+.section.fourth-section.facebook-huge-button{
+  position:relative;
+  padding:0;
+  min-height:350px;
+}
+
+
+.section.second-section.google-map{
+   padding:0px;
+}
+
+
+
+
+
+      .waves-effect.waves-light.btn.light-blue.valign{
+        background-color:#3b5998 !important;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        height:100%;
+        width:100%;
+        vertical-align: middle;
+        display:block;
+        padding:152px 0px;
+        font-size:2em;
+        text-transform:none;
+
+      }
+
+
+
+.section.third-section.contact-text .pre-introduction{
+  font-weight:500;
+  color:#757575;
+  margin-bottom:20px;
+}
+
+
+
+      @media screen and (min-width:620px) {
+            .waves-effect.waves-light.btn.light-blue.valign{
+             font-size:3.5em;
+            }
+        
+      }
+
+       @media screen and (min-width:925px) {
+            .waves-effect.waves-light.btn.light-blue.valign{
+             font-size:5em;
+            }
+        
+      }
+       @media screen and (min-width:1280px) {
+            .waves-effect.waves-light.btn.light-blue.valign{
+             font-size:7em;
+            }
+        
+      }

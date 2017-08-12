@@ -11,9 +11,52 @@ const data = {
 			youtube:"https://www.youtube.com/channel/UCwHi6X6SRGPOvpRoBmeBlbA/videos",
 			instagram:"https://www.instagram.com/explore/tags/batchfield/",
 		}
-
-
 	},
+	team:[
+		{
+			author:"Basti",
+			title:"Fotograf",
+			avator:"batchfield_fotograf_rosenheim_team_01.jpg"
+		},
+		{
+			author:"James",
+			title:"Full Stack Designer",
+			avator:"batchfield_fotograf_rosenheim_team_06.jpg"
+		}
+
+	],
+	service_intro:[
+		{
+			icon:"fa fa-smile-o",
+			title:"Dein Foto-Erlebnis",
+			desc:"Lass Dich von unseren Fotografen begeistern. So ein unvergessliches Fotoshooting-Erlebnis gibt es nur bei uns."
+		},
+		{
+			icon:"fa fa-map-marker",
+			title:"Schöne location",
+			desc:"Man sagt, BATCHFIELD habe das schönste Fotostudio der Stadt mit einer einmaligen Wohlfühlatmosphäre."
+		},
+		{
+			icon:"fa fa-eur",
+			title:"Kein Bestellzwang",
+			desc:"Du bestellst nur die Fotos, die du auch wirklich haben möchtest. Bei uns gibt es keine Abnahmeverpflichtung!"
+		},
+		{
+			icon:"fa fa-globe",
+			title:"Jeder ist willkommen",
+			desc:"Egal aus welchem Land du bist, welche Hautfarbe du hast und welche Musik du hörst – du bist herzlich willkommen."
+		},
+		{
+			icon:"fa fa-clock-o",
+			title:"Fotos sofort mitnehmen",
+			desc:"Schneller geht es kaum. Aber auch aufwändig retouchierte Fotos liefern wir in nur drei Tagen. Garantiert."
+		},
+		{
+			icon:"fa fa-heart-o",
+			title:"100% Happiness Garantie",
+			desc:"Solltest du nicht zufrieden bist, bekommst du dein Geld zurück — ganz ohne wenn und aber!"
+		},
+	],
 	shootings: [
 		{
 			id:"001",

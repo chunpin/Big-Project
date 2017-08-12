@@ -27,6 +27,8 @@ class ExplanationLists extends Component {
             				 ')'   
    		};
 
+   		
+
   		return (
   			 <li style={divStyle}>
   			   <h3 >{item.title}</h3>

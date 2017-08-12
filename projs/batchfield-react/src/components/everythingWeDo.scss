@@ -1,0 +1,30 @@
+.section.contact-text{
+  background-color:#fcfcfc;
+}
+
+      .section.contact-text .col.s12.center.social-icon-wrapper li{
+        display:inline-block;
+        margin:0px 10px;
+      }
+
+      .section.contact-text .col.s12.center.social-icon-wrapper li a{
+        
+        border:2px solid #03a9f4;
+        padding:11px 15px;
+        background-color:#03a9f4;
+        color:white;
+        -webkit-transition: background-color 0.3s, color 0.3s;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      @media screen and (min-width:400px) {
+        .section.contact-text .col.s12.center.social-icon-wrapper li a{
+          padding:20px 24px;
+      }
+
+      }
+
+      .section.contact-text .col.s12.center.social-icon-wrapper li a:hover{
+        background-color:white;
+        color:#03a9f4;
+      }

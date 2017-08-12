@@ -3,10 +3,15 @@ import React, { Component } from 'react';
 import Fotoshooting from './fotoShooting.js';
 import { Row, Container } from 'react-materialize';
 
+
+import './fotoShootings.css';
+
+
 import data from '../assets/data.js';
 
 
-import './fotoShootings.css';
+
+
 
 
 
@@ -26,6 +31,7 @@ class FotoShootings extends Component {
 
 	populateHtml (){
 		const shootingsData = data.shootings;
+
 		const html = shootingsData.map(function (item){
 			return <Fotoshooting data={item}/>
 		}); 

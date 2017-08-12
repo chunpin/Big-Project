@@ -14,11 +14,14 @@ import './App.css';
 
 import HomePage from './pages/homePage.js';
 import FotoShootingsDetailPage from './pages/fotoshootingsDetailPage.js';
+import TeamPage from './pages/teamPage.js'
+import KontaktPage from './pages/kontaktPage.js'
 
 
 
 import Nav from './components/nav.js';
 import Footer from './components/footer.js';
+
 
 
 import data from './assets/data.js';
@@ -51,7 +54,9 @@ class App extends Component {
           <Nav data={data}/>
 
              <Route exact path="/" component={HomePage}/>
-             <Route exact path="/topic" component={Topic}/>
+         {/* <Route exact path="/fotoshootings_preise" component={FotoshootingsPreisePage}/> */}
+             <Route exact path="/team" component={TeamPage}/>
+             <Route exact path="/kontakt" component={KontaktPage}/>
              <Route exact path={`/fotoshootings_preise/:topicId`} component={Topic}/>
           <Footer data={data} />
         </div>
