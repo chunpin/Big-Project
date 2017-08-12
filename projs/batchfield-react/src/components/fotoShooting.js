@@ -6,9 +6,20 @@ import './fotoShooting.css'; // Tell Webpack that Button.js uses these styles
 import slugify from 'slugify';
 
 
+// batchfield_fotograf_rosenheim_bewebungsbilder_featured_image.jpg
+
+
 
 
 class FotoShoting extends Component {
+
+  titleStringTrasform(title){
+    var concatString =  title.replace(" ","").replace("ä","a");
+    var lowerString = concatString.toLowerCase(); 
+    return lowerString;
+  }
+  
+
 	render(){
 		var data = this.props.data;
 		return (
@@ -16,7 +27,7 @@ class FotoShoting extends Component {
                       <div className="card">
                         <div className="card-image">
                           <a className="light-box-wrapper" href={`/fotoshootings_preise/fotostudio_${slugify(data.title).toLowerCase()}_fotograf_rosenheim.html`}>
-                            <img src={`/images/${data.thumbnail}`} alt={data.title} />
+                            <img src={`/images/${this.titleStringTrasform(data.title)}/batchfield_fotograf_rosenheim_${this.titleStringTrasform(data.title)}_featured_image.jpg`} alt={data.title} />
                             <span className="card-price-wrapper">
                               <div className="text-wrapper">
                                 <p className="card-price">{data.price}</p>

@@ -1,10 +1,23 @@
 import React, { Component } from 'react';
 
+
+import ExplanationLists from './explanationLists';
+
+
 import './priceDetail.css';
 
 
 
 class PriceDetail extends Component {
+
+
+  titleStringTrasform(title){
+    var concatString =  title.replace(" ","").replace("ä","a");
+    var lowerString = concatString.toLowerCase(); 
+    return lowerString;
+  }
+
+
   render(){
     return (
       <div className="section shadow_divider">
@@ -23,19 +36,15 @@ class PriceDetail extends Component {
     
 
       <div className="col s12 m6 image_wrapper">
-        <img className="responsive-img" src="/images/hochzeit/batchfield_fotograf_rosenheim_hochzeit_07.jpg" alt="batchfield fotograf rosenheim hochzeit 07.jpg" />
+        <img className="responsive-img" src={`/images/${this.titleStringTrasform(this.props.data.title)}/batchfield_fotograf_rosenheim_${this.titleStringTrasform(this.props.data.title)}_featured_image.jpg`} alt={this.props.data.title} />
       </div>
   
       
   
       <div className="col s12 m6 list_wrapper">
-          <ul>
-            <li>Euer Lieblingsfoto ist im Preis bereits enthalten: als Abzug + Datei.</li>
-            <li>Ca. 60 Minuten solltet ihr für das Familien Shooting und eure Bildauswahl einplanen.</li>
-            <li>Bei uns gibt es keine Abnahmeverpflichtung! Ihr habt die Wahl – bestellst nur die Fotos, die ihr wirklich haben möchtet.</li>
-            <li>Ab 7 Personen kostet das Fotoshooting 59€</li>
-            <li className="last center" id="last_bullet_links"></li>
-          </ul>  
+         <ExplanationLists 
+          items={this.props.data.explanation_lists}
+         />
       </div>
    </div>
   </div>
