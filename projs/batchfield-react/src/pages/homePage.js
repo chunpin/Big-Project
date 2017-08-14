@@ -25,6 +25,9 @@ class HomePage extends Component {
 
  //  }
 
+
+
+
   render() {
     return (
       <div>
@@ -32,8 +35,8 @@ class HomePage extends Component {
         <FotoShootings/>
         <ServiceIntro data={data.service_intro}/>
  
-        <ReactGallery>
-		  { galleryData.map(item => <ReactGallery.Slide { ...item } key={ item.source } />) }
+        <ReactGallery withControls>
+		  { galleryData.map(item => <ReactGallery.Slide { ...item } thumbnail={ item.thumbnail } key={ item.source } />) }
 		</ReactGallery>
 		
       </div>
