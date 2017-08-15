@@ -17,7 +17,7 @@ class ServiceIntro extends Component {
 		      </li>	
   		);
   	});
-
+    
   	return html;
   }
 
