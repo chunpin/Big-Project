@@ -31,7 +31,7 @@ const OKIcon = generateShareIcon('ok');
 const RedditIcon = generateShareIcon('reddit');
 
 
-const shareUrl = "https://www.facebook.com";
+const shareUrl = "https://www.facebook.com/batchfield";
 
 
 
