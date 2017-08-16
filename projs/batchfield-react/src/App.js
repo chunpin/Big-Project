@@ -20,13 +20,17 @@ import FotoshootingsPreisePage from './pages/fotoshootingsPreisePage.js';
 
 
 
+
+
+
 import Nav from './components/nav.js';
 import Footer from './components/footer.js';
 
 
+import SocialShare from './components/socialShare.js';
+
 
 import data from './assets/data.js';
-
 
 
 
@@ -46,7 +50,6 @@ const Topic = ({ match }) => (
 
 
 //<Route path="/" component={HomePage}/>
-
 class App extends Component {
   render() {
     return (
@@ -58,6 +61,7 @@ class App extends Component {
              <Route exact path="/team" component={TeamPage}/>
              <Route exact path="/kontakt" component={KontaktPage}/>
              <Route exact path={`/fotoshootings_preise/:topicId`} component={Topic}/>
+          <SocialShare />
           <Footer data={data} />
         </div>
       </Router>
@@ -66,3 +70,4 @@ class App extends Component {
 }
 
 export default App;
+

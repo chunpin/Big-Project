@@ -19,12 +19,11 @@ class FotoShootings extends Component {
 	dynamicTitle () {
 		var currentPath = window.location.pathname;
 
-		if( currentPath !== "/"){
-			return "Entdecken Sie auch unsere weiteren Angebote!"
+		if( currentPath === "/" || currentPath === "/fotoshootings_preise" ){
+			return "Fotoshootings";
 		} else {
-			return "Fotoshootings"
+			return "Entdecken Sie auch unsere weiteren Angebote!";
 		}
-
 
 
 	}

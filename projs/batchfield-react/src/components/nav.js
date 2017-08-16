@@ -13,21 +13,23 @@ class Nav extends Component {
 
 		return (
 			<section className="nav-section">
-				<Container>
-					<a className="header-contact-info" href={`tel:+49-${info.tel}`}>
-						<i className="fa fa-phone" aria-hidden="true"></i>
-						{info.tel}
-					</a>
-					<a className="header-contact-info" href="#">
-						<i className="fa fa-phone" aria-hidden="true"></i>
-						{info.address}
-					</a>
-				</Container>
+				<div className="header-contact-info-wrapper">
+					<Container>
+						<a className="header-contact-info" href={`tel:+49-${info.tel}`}>
+							<i className="fa fa-map-marker" aria-hidden="true"></i>
+							{info.tel}
+						</a>
+						<a className="header-contact-info" href="#">
+							<i className="fa fa-phone" aria-hidden="true"></i>
+							{info.address}
+						</a>
+					</Container>
+				</div>
 
 				<Container className="nav-container">
 
 
-			   		<Navbar  brand='booknow' left={true} href="/">
+			   		<Navbar  brand='Book Now' left={true} href="/">
 			   				<NavItem  className="logo-wrapper">
 				   				<a href="/"> 
 				   					<img className="logo-img" src="/images/logo/batchfield_logo.png" alt="batchfield_logo"/>

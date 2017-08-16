@@ -3,6 +3,13 @@ footer.page-footer {
   padding-top:22px;
   margin: 0;
   background-color:#3D3D3D;
+  text-align:left;
+  .col.s12{
+    margin-bottom:30px;
+  }
+  .col.s12:last-of-type{
+    margin-bottom:0px;
+  }
 }
 
 footer.page-footer h5{

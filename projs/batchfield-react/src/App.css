@@ -20,5 +20,8 @@
   to {
     transform: rotate(360deg); } }
 
+body {
+  background-color: #fcfcfc; }
+
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: "Roboto"; }

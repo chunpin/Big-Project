@@ -1,8 +1,36 @@
-.nav-section .header-contact-info {
-  color: white;
-  margin-left: 10px;
-  float: right;
-  font-weight: 100; }
+/*START OF booknow button*/
+nav .brand-logo.right {
+  right: 0.5rem;
+  padding: 0;
+  background-colro: pink;
+  background-color: hotpink;
+  padding: 0px 59px;
+  border-radius: 50px;
+  height: 50px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+  font-size: 22px;
+  background-color: #EC407A; }
+
+/*End of booknow button*/
+.nav-section .header-contact-info-wrapper {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%; }
+  .nav-section .header-contact-info-wrapper .header-contact-info {
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+    float: right;
+    font-weight: 100;
+    background-color: rbga(0, 0, 0, 0.3);
+    transition: .3s ease-in-out; }
+    .nav-section .header-contact-info-wrapper .header-contact-info .fa {
+      margin-right: 10px; }
+    .nav-section .header-contact-info-wrapper .header-contact-info:hover {
+      color: white; }
 
 .nav-section .container {
   clear: both; }
