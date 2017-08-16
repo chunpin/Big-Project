@@ -1,9 +1,5 @@
 const galleryData = [
 {
-  thumbnail: '/images/happiness_foto/batchfield_fotograf_rosenheim_00_350px.jpg',
-  source:'/images/happiness_foto/batchfield_fotograf_rosenheim_00_650px.jpg',
-}, 
-{
   thumbnail: '/images/happiness_foto/batchfield_fotograf_rosenheim_01_350px.jpg',
   source:'/images/happiness_foto/batchfield_fotograf_rosenheim_01_650px.jpg',
 }, 
@@ -310,7 +306,11 @@ const galleryData = [
 {
   thumbnail: '/images/happiness_foto/batchfield_fotograf_rosenheim_77_350px.jpg',
   source:'/images/happiness_foto/batchfield_fotograf_rosenheim_77_650px.jpg',
-}
+},
+{
+  thumbnail: '/images/happiness_foto/batchfield_fotograf_rosenheim_78_350px.jpg',
+  source:'/images/happiness_foto/batchfield_fotograf_rosenheim_78_650px.jpg',
+}, 
 ];
 
 

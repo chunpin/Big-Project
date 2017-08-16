@@ -16,6 +16,7 @@ import HomePage from './pages/homePage.js';
 import FotoShootingsDetailPage from './pages/fotoshootingsDetailPage.js';
 import TeamPage from './pages/teamPage.js'
 import KontaktPage from './pages/kontaktPage.js'
+import FotoshootingsPreisePage from './pages/fotoshootingsPreisePage.js';
 
 
 
@@ -51,10 +52,9 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Nav data={data}/>
-
+          <Nav data={data.companyInfo}/>
              <Route exact path="/" component={HomePage}/>
-         {/* <Route exact path="/fotoshootings_preise" component={FotoshootingsPreisePage}/> */}
+             <Route exact path="/fotoshootings_preise" component={FotoshootingsPreisePage}/>
              <Route exact path="/team" component={TeamPage}/>
              <Route exact path="/kontakt" component={KontaktPage}/>
              <Route exact path={`/fotoshootings_preise/:topicId`} component={Topic}/>

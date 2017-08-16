@@ -1,0 +1,26 @@
+.photo-gallery-links{
+  display:inline-block;	
+  width:33.33333%;
+  img{
+  	width:100%;
+  	height:auto;
+  	display:block;
+  }
+}
+
+
+
+@media screen and (min-width:640px) {
+	.photo-gallery-links{
+		width:25%;
+	}	
+}
+
+
+
+
+@media screen and (min-width:640px) {
+	.photo-gallery-links{
+		width:16.666666%;
+	}	
+}

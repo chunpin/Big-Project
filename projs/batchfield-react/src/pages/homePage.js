@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import FotoShootings from '../components/fotoShootings.js';
-import LandingCarousel from '../components/landingCarousel.js';
+import PromotionCarousel from '../components/promotionCarousel.js';
 import ServiceIntro from '../components/serviceIntro.js';
+import PhotoGallery from '../components/photoGallery.js';
 
-import ReactGallery from 'reactive-blueimp-gallery';
+
 
 import data from '../assets/data.js';
-import galleryData from '../assets/galleryData.js';
+
+
+
+
+
+
 
 
 
@@ -31,14 +37,10 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        <LandingCarousel />
+        <PromotionCarousel />
         <FotoShootings/>
         <ServiceIntro data={data.service_intro}/>
- 
-        <ReactGallery withControls>
-		  { galleryData.map(item => <ReactGallery.Slide { ...item } thumbnail={ item.thumbnail } key={ item.source } />) }
-		</ReactGallery>
-		
+        <PhotoGallery />
       </div>
     );
   }
