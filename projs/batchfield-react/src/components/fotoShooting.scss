@@ -158,7 +158,7 @@
 
                            .container.photo-gallery .card-action .button{
                             margin-right:0 !important;
-                            color:#29b6f6;
+                            color:#29b6f6 !important;
                             background-color:white;
                             border:2px solid #29b6f6;
                             padding:10px;
@@ -167,8 +167,8 @@
                           }
 
                           .container.photo-gallery .card-action .button:hover{
-                            color:white;
-                            background-color:#29b6f6;
+                            color:white !important;
+                            background-color:#29b6f6 ;
                           }
 
 

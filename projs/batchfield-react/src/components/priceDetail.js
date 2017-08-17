@@ -35,13 +35,13 @@ class PriceDetail extends Component {
       <p className="col s12 sub_text">Mama, Papa und die Kinder – vielleicht nehmt ihr noch eure Großeltern mit.<br/>Egal wie viele ihr seid, wir freuen uns auf eure ganze Familie. Habt viel Spaß mit unserem Fotografenteam - in bester Wohlfühlatmosphäre.</p>
     
 
-      <div className="col s12 m6 image_wrapper">
-        <img className="responsive-img" src={`/images/${this.titleStringTrasform(this.props.data.title)}/batchfield_fotograf_rosenheim_${this.titleStringTrasform(this.props.data.title)}_featured_image.jpg`} alt={this.props.data.title} />
+      <div className="col s12 m12 l6 image_wrapper">
+        <img className="responsive-img featured-image" src={`/images/${this.titleStringTrasform(this.props.data.title)}/batchfield_fotograf_rosenheim_${this.titleStringTrasform(this.props.data.title)}_featured_image.jpg`} alt={this.props.data.title} />
       </div>
   
       
   
-      <div className="col s12 m6 list_wrapper">
+      <div className="col s12 m12 l6 list_wrapper">
          <ExplanationLists 
           items={this.props.data.explanation_lists}
          />

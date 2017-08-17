@@ -30,7 +30,7 @@ class FotoShoting extends Component {
                             <img src={`/images/${this.titleStringTrasform(data.title)}/batchfield_fotograf_rosenheim_${this.titleStringTrasform(data.title)}_featured_image.jpg`} alt={data.title} />
                             <span className="card-price-wrapper">
                               <div className="text-wrapper">
-                                <p className="card-price">{data.price}</p>
+                                <p className="card-price">{`${data.price} €`}</p>
                               </div>
                             </span>
                             <div className="overlay_background"><div className="overlay_title">{data.overlay_text? data.overlay_text : data.title}</div></div>
