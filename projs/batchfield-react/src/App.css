@@ -20,11 +20,8 @@
   to {
     transform: rotate(360deg); } }
 
-
-
-.container{
-  max-width:992px;
-}
+.container {
+  max-width: 992px; }
 
 body {
   background-color: #fcfcfc; }

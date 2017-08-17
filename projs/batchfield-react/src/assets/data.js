@@ -646,7 +646,7 @@ const data = {
 			price:99,
 			thumbnail:"batchfield_fotograf_rosenheim_myday_thumbnail.jpg",
 			column:4,
-			page_desc:"Das ist DEIN Tag. Und Du entscheidest was du willst. Du magst verführerische Bilder in Dessous, oder ein romantisches Shooting im Sonnenuntergang? Mit viel Gespür für den richtigen Moment setzen wir Dich ganz kreativ, natürlich und genau nach Deinen Wünschen in Szene. Damit dir DEIN Tag für immer in unvergesslicher Erinnerung bleibt. 99 € Termin vereinbaren 08031 - 88 78 777",
+			page_desc:"Das ist DEIN Tag. Und Du entscheidest was du willst. Du magst verführerische Bilder in Dessous, oder ein romantisches Shooting im Sonnenuntergang? Mit viel Gespür für den richtigen Moment setzen wir Dich ganz kreativ, natürlich und genau nach Deinen Wünschen in Szene. Damit dir DEIN Tag für immer in unvergesslicher Erinnerung bleibt.",
 			explanation_lists:[
 				{
 					icon:"time",
