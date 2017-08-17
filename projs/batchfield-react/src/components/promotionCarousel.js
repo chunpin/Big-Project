@@ -16,7 +16,7 @@ import bewebungsbilderPromotion01 from '../assets/images/batchfield_fotograf_ros
 
 
 
-class LandingCarousel extends Component {
+class PromotionCarousel extends Component {
 
 	render(){
 		var settings = {
@@ -29,26 +29,21 @@ class LandingCarousel extends Component {
 		  slidesToScroll: 2,
 	      responsive: [
 		    {
-		      breakpoint: 1024,
+		      breakpoint: 3000,
 		      settings: {
-		        slidesToShow: 2,
-		        slidesToScroll: 2,
+		        slidesToShow: 3,
+		        slidesToScroll: 3,
 		        infinite: true,
-		        dots: true
+		        dots: true,
+		        centerMode:true
 		      }
 		    },
 		    {
 		      breakpoint: 600,
 		      settings: {
-		        slidesToShow: 1.5,
-		        slidesToScroll: 1.5
-		      }
-		    },
-		    {
-		      breakpoint: 480,
-		      settings: {
 		        slidesToShow: 1,
-		        slidesToScroll: 1
+		        slidesToScroll: 1,
+		        centerMode:false
 		      }
 		    }
 		    // You can unslick at a given breakpoint now by adding:
@@ -81,7 +76,7 @@ class LandingCarousel extends Component {
 
 
 
-export default LandingCarousel;
+export default PromotionCarousel;
 
 
 
