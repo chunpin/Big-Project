@@ -41,6 +41,7 @@ class HomePage extends Component {
         <FotoShootings/>
         <ServiceIntro data={data.service_intro}/>
         <PhotoGallery />
+       
       </div>
     );
   }
