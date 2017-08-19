@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "react-materialize": "^1.0.10",
-    "react-snapshot": "^1.0.4",
+    "react-snapshot": "^2.0.0-0",
     "slugify": "^1.2.1"
   }
 }
