@@ -12,22 +12,22 @@ import './App.css';
 
 
 
-import HomePage from './pages/homePage.js';
-import FotoShootingsDetailPage from './pages/fotoshootingsDetailPage.js';
-import TeamPage from './pages/teamPage.js'
-import KontaktPage from './pages/kontaktPage.js'
-import FotoshootingsPreisePage from './pages/fotoshootingsPreisePage.js';
+import HomePage from './pages/HomePage';
+import FotoShootingsDetailPage from './pages/FotoshootingsDetailPage';
+import TeamPage from './pages/TeamPage';
+import KontaktPage from './pages/KontaktPage';
+import FotoshootingsPreisePage from './pages/FotoshootingsPreisePage';
 
 
 
 
 
 
-import Nav from './components/nav.js';
-import Footer from './components/footer.js';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 
-import SocialShare from './components/socialShare.js';
+import SocialShare from './components/SocialShare';
 
 
 import data from './assets/data.js';

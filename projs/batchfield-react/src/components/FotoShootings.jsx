@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Fotoshooting from './fotoShooting.js';
+import FotoShooting from './FotoShooting';
 import { Row, Container } from 'react-materialize';
 
 
@@ -8,7 +8,6 @@ import './fotoShootings.css';
 
 
 import data from '../assets/data.js';
-
 
 
 
@@ -32,7 +31,7 @@ class FotoShootings extends Component {
 		const shootingsData = data.shootings;
 
 		const html = shootingsData.map(function (item){
-			return <Fotoshooting data={item}/>
+			return <FotoShooting data={item}/>
 		}); 
 
 		return html;

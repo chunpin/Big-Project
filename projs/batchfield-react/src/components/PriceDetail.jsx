@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import ExplanationLists from './explanationLists';
+import ExplanationLists from './ExplanationLists';
 
 
 import './priceDetail.css';

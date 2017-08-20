@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-
 import slugify from 'slugify';
 
-import PriceDetail from '../components/priceDetail.js';
 
 
-import ExtraInfo from '../components/extraInfo.js';
 
-import FotoShootings from '../components/fotoShootings.js';
-
-import FotoBuch from '../components/fotoBuch.js';
+import PriceDetail from '../components/PriceDetail';
+import ExtraInfo from '../components/ExtraInfo';
+import FotoShootings from '../components/FotoShootings';
+import FotoBuch from '../components/FotoBuch';
 
 
 import data from '../assets/data.js';

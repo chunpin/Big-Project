@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './explanationLists.css';
 
 
-import CallToActionLinks from './callToActionLinks.js';
+import CallToActionLinks from './CallToActionLinks';
 
 
 

@@ -4,13 +4,7 @@ import './everythingWeDo.css';
 
 
 
-class EverythingWeDo extends Component {
-
-
-
-  render() {
-
-  	const info = this.props.data;
+function EverythingWeDo ({info}) {
 
     return (
      	 <section className="section contact-text">
@@ -37,7 +31,6 @@ class EverythingWeDo extends Component {
 		   </div>
 		</section>
     );
-  }
 }
 
 export default EverythingWeDo;

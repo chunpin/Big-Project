@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 
 
 
-class CallToActionLinks extends Component {
-
-
-  render(){
+function CallToActionLinks () {
     return (
        <li className="last center" id="last_bullet_links">
             <a href="tel:+49-8031-8878777" className="button"><i className="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;uns anrufen</a>
@@ -13,7 +10,6 @@ class CallToActionLinks extends Component {
             <a href="/images/gutschein.png" target="_blank" className="button"><i className="fa fa-calendar"></i>&nbsp;&nbsp;&nbsp;Gutschein verschenken</a>
        </li>
     )
-  }
 }
 
 
