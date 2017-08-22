@@ -60,7 +60,7 @@ class App extends Component {
              <Route exact path="/fotoshootings_preise" component={FotoshootingsPreisePage}/>
              <Route exact path="/team" component={TeamPage}/>
              <Route exact path="/kontakt" component={KontaktPage}/>
-             <Route exact path={`/fotoshootings_preise/:topicId`} component={Topic}/>
+             <Route exact path="/fotoshootings_preise/:topicId" component={Topic}/>
           <SocialShare />
           <Footer data={data} />
         </div>

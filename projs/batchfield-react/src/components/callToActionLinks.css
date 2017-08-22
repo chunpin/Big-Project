@@ -1,0 +1,12 @@
+#last_bullet_links a {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #29B6F6;
+  border-radius: 5px;
+  border: 2px solid #29B6F6;
+  transition: all .3s ease-in-out; }
+  #last_bullet_links a:hover {
+    color: #29B6F6;
+    background-color: white; }

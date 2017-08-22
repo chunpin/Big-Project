@@ -28,5 +28,19 @@
     "react-owl-carousel2": "^0.2.1",
     "react-share": "^1.15.1",
     "reactive-blueimp-gallery": "^0.1.9"
+  },
+   "reactSnapshot": {
+    "include": [
+      "/",
+      "/fotoshootings_preise",
+      "/team",
+      "/kontakt",
+      "/fotoshootings_preise/:topicId"
+    ],
+    "exclude": [
+      "/signup",
+      "/other-path/exclude-me/**"
+    ],
+    "snapshotDelay": 300
   }
 }
