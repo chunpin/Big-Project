@@ -1,4 +1,8 @@
-# this repository containes 4 different project for BATCHFIELD.
+# this repository containes 4 different projects for BATCHFIELD.
+# each of them have their own hideen .git file, which means can sync with github individually
+# for example ,  can using git command insdie of Termal window in the directory " Big-Project/projs/batchfield-react" directory.
+
+
 
 
 inside the projs folder are:
