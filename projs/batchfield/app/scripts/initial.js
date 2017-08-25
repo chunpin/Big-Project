@@ -29,7 +29,7 @@ $(document).ready(function(){
                   this.$topNav = $('#otherpages_top_nav');
                   this.$whiteNavForOtherPages = $('#otherpages_nav_white');
                 /*-------Price_sub_pages--------*/
-                  this.$lastBulletLinks = $('#last_bullet_links');
+                  // this.$lastBulletLinks = $('#last_bullet_links');
                   // this.$visitOthersLinks = $('#price_visit_others_links');
                   this.$pakagePrice =  $('#paketpreis');
                   this.$priceTable =  $('#price-table');
@@ -41,7 +41,7 @@ $(document).ready(function(){
                 /*-------landing--------*/
                   this.initSliders();
                 /*-------Price_sub_pages--------*/
-                  this.$lastBulletLinks.load("/include/price_detail_page_bullet_links.html");
+                  // this.$lastBulletLinks.load("/include/price_detail_page_bullet_links.html");
                   // this.$visitOthersLinks.load("/include/price_detail_page_visit_others_links.html");
                   this.$pakagePrice.load("/include/paketpreis.html")
                   this.$priceTable.load("/include/price-table.html");
