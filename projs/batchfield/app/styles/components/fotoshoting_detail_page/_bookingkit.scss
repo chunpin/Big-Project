@@ -1,3 +1,96 @@
-#bookingKitContainer{
-	/*background-color: green! important;*/
-}
+
+
+
+
+
+  #bookingKitContainer{
+     /*display: none; */
+     padding:0px !important;
+  }
+
+  .bk-detail-description,.bk-detail-images,.bk-detail-informations,.bk-detail-price.alphaColor,.bk-date-btn.alphaBg.bk-scroll-to-cal{
+    display:none;
+  }
+
+
+  .bk-detail-mini-description{
+
+  }
+
+  .bk-date-btn.alphaBg.bk-scroll-to-cal,
+  .bk-detail-mini-description,
+  .bk-detail-cal,
+  .bk-detail-highlight-line{
+    display:none !important;
+  }
+
+  .bk-detail-highlights.widgetBg ul{
+    display:none! important;
+  }
+
+
+  .bk-voucher-btn.betaBg{
+    display:initial;
+  }
+
+
+
+  .bk-checkout-footer{
+    display:none;
+  }
+
+
+
+  /*gutschine button*/
+  .col.s12.list_wrapper ul li.last{
+  	display:flex !important;
+  	justify-content: center !important;
+  	align-items: center !important;
+  }
+
+
+  .col.s12.list_wrapper .button.bookingkit_gutschine_button_wrapper{
+  	border:0px;
+  	border-color:pink;
+  }
+
+
+
+  .bookingkit_gutschine_button_wrapper{
+    padding:0px !important;
+  }
+
+  #bookingKitContainer .bk-detail-highlights{
+    width:100% !important;
+    padding:0!important;
+
+  }
+
+
+
+  #bookingKitContainer .bk-voucher-btn{
+  	margin:0px !important;
+  	display:block !important;
+/*  	padding:10px 0px !important*/;
+  	border-radius: 0px !important;
+  	line-height:28px !important;
+  	background-color:#E91E63 !important;
+  	border:2px solid #E91E63 !important;
+  	transition:.3s all ease-in-out !important;
+  	font-size:14px !important;
+  	&:hover{
+		background-color: white !important;
+		color:#E91E63!important;
+  	}
+  }
+
+  
+  #bookingKitContainer .bk-voucher-btn{
+    margin:0;
+    overflow:none;
+  }
+
+
+
+
+
