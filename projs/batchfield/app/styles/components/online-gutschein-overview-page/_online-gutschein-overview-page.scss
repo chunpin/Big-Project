@@ -1,0 +1,22 @@
+.online-gutschein-overview-page{
+	#bookingKitContainer{
+		.bk-events-item {
+			/*display:inline-block;
+			width:50%;
+			float:left;
+			clear:none;*/
+			.bk-date-btn.alphaBg{
+				display:none;
+			}
+
+			.bk-events-buttons{
+				width:100%;
+				.bk-voucher-btn.betaBg{
+					float:right;
+				}
+			}
+
+		}
+
+	}
+}

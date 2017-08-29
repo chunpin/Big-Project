@@ -169,3 +169,79 @@ nav {
     height: $navbar-height;
   }
 }
+
+
+
+
+
+
+/* START OF online-gutschein-button*/
+nav li.online-gutschein-button.active{
+  background-color:rgba(0,0,0,0) !important;
+}
+nav li.online-gutschein-button{
+/*  display:flex;
+  height:100%;
+  justify-content: center;
+  align-items: center;*/
+  background-color:rgba(0,0,0,0) !important;
+
+
+  a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#E91E63;
+    line-height:0px;
+    padding:5px 50px!important;
+    border:2px solid #E91E63;
+    border-radius: 50px;
+    &:hover{
+      background-color:white;
+      color:#E91E63;
+    };
+  }
+}
+
+
+nav{
+  li.online-gutschein-button{
+    a{
+      margin-top:21px;
+    }
+  }
+}
+
+
+nav.sticky{
+  li.online-gutschein-button{
+    a{
+      margin-top:12px;
+    }
+  }
+}
+
+
+
+
+@media screen and (min-width:1092px) {
+    nav{
+      li.online-gutschein-button{
+        a{
+          margin-top:17px;
+        }
+      }
+    }
+
+    nav.sticky{
+      li.online-gutschein-button{
+        a{
+          margin-top:9px;
+        }
+      }
+}
+
+  
+}
+
+/* START OF online-gutschein-button*/
