@@ -1,18 +1,64 @@
-.online-gutschein-overview-page{
+$light_grey: #E7E7E7;
+$dark_gray: #D4D4D4;
+
+
+
+body.online-gutschein-overview-page{
 	#bookingKitContainer{
+		background-color:#FCFCFC !important;
+	/*	display:flex;
+		flex-wrap: wrap;*/
 		.bk-events-item {
 			/*display:inline-block;
 			width:50%;
 			float:left;
 			clear:none;*/
+			box-sizing: border-box;
+			border-top:1px solid $light_grey;
+			border-left:1px solid $light_grey;
+			border-right:1px solid $light_grey;
+			border-bottom:2px solid $dark_gray;
+			padding:10px;
+			background-color:white;
 			.bk-date-btn.alphaBg{
 				display:none;
 			}
+			
+			.bk-events-images{
+				width:40%;
+				max-width:300px;
+				padding-right:10px;
+				border-right:1px solid $light_grey;
+				margin-right:10px;
+
+			}
+
+			.bk-events-informations{
+				width:50%;
+				position:absolute;
+				right:0;
+				top:0;
+				margin-top:10px;
+				margin-right:10px;
+				.bk-events-desc-small{
+					display:none !important;
+				}
+			}
 
 			.bk-events-buttons{
-				width:100%;
+				width:50%;
+				position:absolute;
+				right:0;
+				bottom:0;
+				margin-right:10px;
+				margin-bottom:10px;
 				.bk-voucher-btn.betaBg{
-					float:right;
+					/*float:right;*/
+					width:100%;
+					border-radius: 5px !important;
+					background-color:#5ECAFB !important;
+					border:2px solid #5ECAFB !important;
+
 				}
 			}
 
@@ -20,3 +66,52 @@
 
 	}
 }
+
+@media screen and (min-width:993px) {
+   body.online-gutschein-overview-page{
+   		#bookingKitContainer{
+   			.bk-events-item{
+   				display:flex;
+   				align-items: center;
+   				.bk-events-informations{
+		   			display:inline-block;
+					position:initial;
+		   			float:left;
+		   			width:calc((100% - 350px) / 1.5) !important;
+		   		}
+
+		         .bk-events-buttons{
+		         	display:inline-block;
+			        position:initial;
+		         	float:left;
+		         	width:calc((100% - 350px) / 3) !important;
+		         }
+   			}
+   			
+   		}
+   }
+	
+}
+
+
+
+
+
+
+
+
+/*@media screen and (min-width:993px) {
+	body.online-gutschein-overview-page{
+		#bookingKitContainer{
+			.bk-events-item {
+				width:48%;
+			}
+			.bk-events-item:nth-child(even){
+				margin-right:4%;
+			}
+		}
+	}
+		
+	
+}*/
+

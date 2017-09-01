@@ -96,4 +96,17 @@
 
 
 
+.button.gutschein_verschenken{
+    background-color:#E91E63 !important;
+    border:2px solid #E91E63 !important;
+    color:white!important;
+    &:hover{
+         background-color:white !important;
+         color:#E91E63!important;
+    };
+}
+
+
+
+
 
