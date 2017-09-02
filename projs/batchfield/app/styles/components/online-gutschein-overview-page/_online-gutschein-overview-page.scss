@@ -13,6 +13,7 @@ body.online-gutschein-overview-page{
 			width:50%;
 			float:left;
 			clear:none;*/
+			font-size:16px;
 			box-sizing: border-box;
 			border-top:1px solid $light_grey;
 			border-left:1px solid $light_grey;
@@ -23,6 +24,19 @@ body.online-gutschein-overview-page{
 			.bk-date-btn.alphaBg{
 				display:none;
 			}
+
+			.alphaColor{
+				font-size: .5em;
+				font-weight:bold;
+				line-height: 12px !important;
+				margin-bottom:2px;
+       			margin-left: -2px;
+       			margin-right: -5px;
+				span{
+					display:none;
+				}
+
+			} 
 			
 			.bk-events-images{
 				width:40%;
@@ -34,6 +48,7 @@ body.online-gutschein-overview-page{
 			}
 
 			.bk-events-informations{
+				font-size:1em;
 				width:50%;
 				position:absolute;
 				right:0;
@@ -41,7 +56,22 @@ body.online-gutschein-overview-page{
 				margin-top:10px;
 				margin-right:10px;
 				.bk-events-desc-small{
-					display:none !important;
+					/*display:none !important;*/
+					font-size:1em;
+					div{
+						font-size:0.375em;
+						margin-bottom:1em;
+					}
+					h3{
+						font-size:0.5625em;
+						border:0;
+						margin-bottom:2px;
+						color:#5EBEED !important;
+						font-weight:bold;
+					}
+					p{
+						display:none;
+					}
 				}
 			}
 
@@ -54,10 +84,18 @@ body.online-gutschein-overview-page{
 				margin-bottom:10px;
 				.bk-voucher-btn.betaBg{
 					/*float:right;*/
+					padding:0.1em 0.2em !important;
+					font-size:0.70em !important;
+					line-height:1.5em !important;
+					font-style: italic !important;
 					width:100%;
 					border-radius: 5px !important;
 					background-color:#5ECAFB !important;
 					border:2px solid #5ECAFB !important;
+					&:hover{
+						background-color:white !important;
+						color:#5ECAFB !important;
+					};
 
 				}
 			}
@@ -66,6 +104,65 @@ body.online-gutschein-overview-page{
 
 	}
 }
+
+
+
+@media screen  and (min-width:450px){
+	body.online-gutschein-overview-page{
+		#bookingKitContainer{
+			.bk-events-item{
+   					font-size:22px;
+			}
+		}
+	}
+}
+
+@media screen  and (min-width:600px){
+	body.online-gutschein-overview-page{
+		#bookingKitContainer{
+			.bk-events-item{
+   					font-size:29px;
+			}
+		}
+	}
+}
+
+
+@media screen  and (min-width:700px){
+	body.online-gutschein-overview-page{
+		#bookingKitContainer{
+			.bk-events-item{
+   					font-size:29px;
+   					.bk-events-informations{
+   						position:relative;
+   						float:right;
+   						width:54%;
+   						.bk-events-desc-big.bk-detail-list{
+							div{
+								font-size:1em !important;
+								margin-bottom:12px !important;
+							}
+   							h3{
+   								font-size:1.7em !important;
+   								color:#5EBEED !important;
+   								border:none !important;
+   							}
+   							p{
+   								font-size:1em !important;
+   								line-height:1.4em;
+   							}
+   						}
+   					}
+					.bk-events-buttons{
+						position:relative;
+						float:right;
+						width:54%;
+					}
+			}
+		}
+	}
+}
+
 
 @media screen and (min-width:993px) {
    body.online-gutschein-overview-page{
