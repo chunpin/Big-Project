@@ -338,7 +338,7 @@ $(document).ready(function(){
           autoplayTimeout:1500,
           autoplaySpeed:1000,
           autoplayHoverPause:true,
-          items:1.2,
+          items:1,
           nav:true,
           navText: [
                     '<i class="fa fa-chevron-left"></i>',
@@ -346,7 +346,7 @@ $(document).ready(function(){
                     ],
           responsive:{
               640:{
-                  items:1.4
+                  items:1
               },
               1300:{
                   items:1.8
