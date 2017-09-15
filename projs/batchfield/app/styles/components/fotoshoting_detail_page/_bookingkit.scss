@@ -104,7 +104,23 @@
          background-color:white !important;
          color:#E91E63!important;
     };
+
+    @media screen and (max-width:400px) {
+        &::after{
+          content:"Gutschein";
+        };
+    }
+
+    @media screen and (min-width:401px) {
+        &::after{
+          content:"Gutschein verschenken";
+        };
+    }
+
 }
+
+
+
 
 
 
